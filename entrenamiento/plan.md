@@ -146,6 +146,26 @@ preparar el cuerpo para Cartagena en concreto.
 Techo de 11 h dictado por la restricción real: 5 h entre semana (1 h/día) +
 fin de semana.
 
+### El déficit calórico va acoplado a esta tabla
+
+Bajar grasa es objetivo declarado, y **empuja el 6:30** en vez de competir con
+él: menos masa mejora la economía de carrera, disipa mejor el calor y reduce la
+carga de impacto. El conflicto no es de objetivos, es de **ritmos**.
+
+La solución es periodizarlo al revés del volumen — **déficit cuando el volumen
+es bajo, mantenimiento cuando es alto**:
+
+| Fase | Semanas | Déficit |
+|---|---|---|
+| Reactivación | 1–3 | **Moderado.** La mejor ventana del bloque |
+| Base | 4–8 | **Ligero** |
+| Específico | 9–13 | **Mantenimiento.** Pico de carga + calor: no se recorta energía |
+| Taper | 14–15 | **Mantenimiento o ligero superávit** |
+
+**Prohibido el déficit** en las semanas de test (3, 8, 12), en el taper y en la
+semana de carrera. Detalle completo y señales de alarma en
+`salud/protocolos/deficit-responsable.md`.
+
 ## 5. Progresión — por disciplina, nunca sobre el total
 
 La regla del ~10 % se aplica **a cada disciplina por separado**. Partiendo de
@@ -205,10 +225,17 @@ con datos reales de Garmin.
   ser brecha. No hay que gastar semanas en sighting ni salidas en masa.
 - ✅ **Bici: Trek Émonda SL, carbono, Shimano 105.** El parcial de 3:10 pasa a
   ser cuestión de motor, no de material — con esa bici, 28,4 km/h en 90 km
-  llanos es perfectamente alcanzable. *Matiz:* la Émonda es bici de escalador,
-  no aerodinámica. En un llano rápido la **posición** pesa más que el peso, así
-  que **si no lleva acoples hay minutos ahí por poco dinero** — instalados
-  pronto y entrenados, nunca estrenados el día de la carrera.
+  llanos es perfectamente alcanzable.
+- ⚠️ **No tiene acoples, y se plantea comprarlos. Recomendado.** La Émonda es
+  bici de escalador; en 90 km llanos la **posición vale más minutos que el peso
+  de la bici**, y unos acoples de clip cuestan una fracción de cualquier otra
+  mejora. **Condición:** se instalan **antes de la semana 9** y se entrena con
+  ellos — cambian la posición, el manejo y la exigencia sobre lumbares y cuello.
+  Nunca se estrena una posición nueva el día de la carrera.
+- ✅ **Sin historial de lesiones.** Partimos sin deuda estructural. **No es
+  permiso para progresar más rápido.**
+- 🎯 **Bajar grasa es objetivo declarado.** Se integra como déficit periodizado
+  (ver §4 arriba). Va a favor del 6:30, no en contra.
 - ⚠️ **Alergia a los AINEs** — elevada a regla de seguridad en `CLAUDE.md`.
   **Endurece el límite de progresión de la carrera a pie**: sin la opción de
   medicarse, una molestia mal gestionada va directa a semana perdida, y aquí no

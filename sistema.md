@@ -23,7 +23,7 @@ va corrigiendo.
 | **`entrenamiento/restricciones.md`** | Lo que la realidad permite. **Gana sobre `plan.md`** | Al planificar |
 | **`entrenamiento/YYYY-MM-DD-semana.md`** | Una semana concreta, día a día | Cada semana |
 | **`revisiones/`** | Revisiones semanales. **Solo se añade, nunca se sobrescribe** | Al cerrar semana |
-| **`salud/protocolos/`** | Documentos permanentes: test de campo, aclimatación al calor, **molestias sin AINEs** | Cuando toque |
+| **`salud/protocolos/`** | Documentos permanentes: test de campo, aclimatación al calor, molestias sin AINEs, **déficit responsable** | Cuando toque |
 | **`salud/`** | Banderas fechadas, solo en días que merecen bandera | Cuando pase algo |
 | **`carreras/`** | Investigación de la carrera y plan de parciales | Fase 3 y logística |
 | **`dashboard/`** | La superficie de decisión | A diario |
@@ -54,6 +54,22 @@ tonterías dichas con mucha seguridad.
 
 **Lo que aplica a todo el coaching vive en `CLAUDE.md`, no copiado en cada
 skill** — si no, se actualiza en seis sitios y se olvidan dos.
+
+### Skills pedidas para más adelante (sin construir)
+
+Pedidas el 17 ago 2026. La lógica y las reglas ya están escritas en
+`salud/protocolos/deficit-responsable.md`, así que cuando se construyan solo hay
+que envolverlas.
+
+| Skill | Qué haría | Bloqueada por |
+|---|---|---|
+| `objetivo-calorico` | Objetivo del día según fase del plan, sesión prevista y peso | 🔴 **Falta la talla** |
+| `contador-calorias` | Registro de ingesta contra el objetivo del día | Decidir de dónde salen los datos de comida |
+| `sugerencia-comidas` | Propuestas que cumplan calorías y proteína, con comida de Bogotá | Depende de las dos anteriores |
+
+**Aviso ya anotado para cuando se construyan:** las calorías que estima Garmin
+**no sirven de base para el déficit**. Sin banda pectoral el error es grande. Es
+la misma regla que los vatios — estimación, no medida.
 
 ## Las restricciones que atraviesan todo
 
@@ -105,17 +121,27 @@ Se dicen desconocidos, no se rellenan con números plausibles.
 - **Tiempo y parciales del 70.3 que ya completó** — el dato más valioso que
   falta. Un tiempo real de 70.3, aunque saliera mal, calibra el 6:30 mejor que
   cualquier test.
-- **Talla** — sin ella los 87 kg no se pueden interpretar.
-- Historial de lesiones, otras condiciones crónicas, otras alergias, medicación
+- 🔴 **Talla.** **Bloquea las tres skills de nutrición** — sin ella no hay gasto
+  basal estimable y cualquier objetivo calórico sería un número inventado.
+- Otras condiciones crónicas, otras alergias, medicación habitual
 - **Qué tipo de reacción provocan los AINEs** *(pregunta para su médico)*
-- Año del modelo de la Émonda; **si lleva acoples** *(minutos sobre la mesa en
-  90 km llanos)*; tipo de rodillo
+- Año del modelo de la Émonda; tipo de rodillo
 - Horarios de la piscina, franja de entrenamiento entre semana
 - Techo real de horas en fin de semana
 
 **Resueltos el 17 ago 2026:** edad (35), peso (87 kg), bici (Trek Émonda SL ·
-105), rodillo (sí), aguas abiertas (sí, varias veces), chequeo diario (sí),
-alergia a AINEs (registrada como regla de seguridad).
+105), rodillo (sí), **acoples (no los tiene — recomendado comprarlos antes de la
+semana 9)**, aguas abiertas (sí, varias veces), **sin historial de lesiones**,
+chequeo diario (sí), alergia a AINEs (regla de seguridad), **objetivo de bajar
+grasa (protocolo de déficit periodizado)**.
+
+## Norma de operación
+
+**Cada tanda de cambios se cierra con commit y push**, sin que el atleta lo
+pida *(acordado el 17 ago 2026)*. El repositorio queda siempre al día.
+
+Rama de trabajo: `claude/new-session-s2ywkn`. La rama `main` sigue vacía hasta
+que se fusione mediante un Pull Request.
 
 ## Lo siguiente
 
@@ -125,7 +151,11 @@ alergia a AINEs (registrada como regla de seguridad).
    corre desde ya
 4. Recuperar el tiempo y los parciales del 70.3 anterior
 5. Cerrar los huecos de salud que quedan antes de escribir reglas automáticas
-6. **Automatización** (chequeo diario + revisión semanal en `cron`) — **aún no
+6. **Dar la talla** — desbloquea las skills de nutrición y permite poner números
+   al déficit
+7. **Comprar e instalar acoples** antes de la semana 9 (12 oct)
+8. **Automatización** (chequeo diario + revisión semanal en `cron`) — **aún no
    construida.** El atleta pidió chequeo diario, así que esto sube de prioridad.
-7. **Conexión con Garmin Connect** — **aún no construida.** Hoy los datos entran
+9. **Conexión con Garmin Connect** — **aún no construida.** Hoy los datos entran
    a mano y el dashboard se escribe a mano.
+10. **Skills de nutrición** — cuando llegue la talla y el atleta lo pida.

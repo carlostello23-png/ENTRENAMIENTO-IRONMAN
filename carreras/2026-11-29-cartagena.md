@@ -116,10 +116,13 @@ En una carpa médica, con 30 °C y mucha gente, esto importa de verdad.
 - [ ] Transporte de la **Trek Émonda** a Cartagena (maleta rígida o servicio del
       evento)
 - [ ] Revisión mecánica del 105 antes de viajar
-- [ ] **Decidir si se ponen acoples.** La Émonda es una bici de escalador; en 90
-      km llanos la posición vale más que el peso. Si se ponen, **se ponen pronto
-      y se entrena con ellos** — nunca se estrena una posición nueva el día de
-      la carrera
+- [ ] **Comprar e instalar acoples — recomendado.** No los tiene *(17 ago
+      2026)*. La Émonda es bici de escalador; en 90 km llanos la posición vale
+      más minutos que el peso de la bici, y unos acoples de clip son la mejora
+      más rentable por dinero de todo el equipo.
+      **Fecha límite: antes de la semana 9 (12 oct)**, para tener 8 semanas
+      entrenando en esa posición. Cambian el manejo y la exigencia sobre
+      lumbares y cuello — no se estrena una posición nueva el día de la carrera
 - [ ] Descargar la guía oficial del atleta en cuanto salga y **verificar todo lo
       marcado ⚠️ en este archivo**
 

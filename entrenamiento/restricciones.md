@@ -60,8 +60,14 @@ sobre la mesa por muy poco dinero** — pero cambian la posición y el manejo, a
 que se instalarían pronto y se entrenaría con ellos, nunca se estrenan el día de
 la carrera.
 
-**DESCONOCIDO:** año del modelo, si lleva acoples, tipo de rodillo, horarios de
-la piscina, si algo de esto es estacional o poco fiable.
+**No tiene acoples** *(17 ago 2026)*, y se plantea comprarlos. **Recomendado, con
+condición:** instalados **antes de la semana 9** y entrenados desde entonces.
+Cambian la posición, el manejo y la exigencia sobre lumbares y cuello. Una
+posición nueva estrenada el día de la carrera es una forma conocida de arruinar
+un medio maratón.
+
+**DESCONOCIDO:** año del modelo, tipo de rodillo, horarios de la piscina, si algo
+de esto es estacional o poco fiable.
 
 ## 4b. Salud — restricción dura
 
@@ -153,12 +159,15 @@ cumple bate a un plan brillante que se abandona.
 
 ## Huecos abiertos
 
-- **Talla** — sin ella, los 87 kg no se pueden interpretar
+- 🔴 **Talla** — **bloquea las skills de nutrición.** Sin ella no hay gasto basal
+  estimable y no se puede dar un objetivo calórico
 - **Tiempo y parciales del 70.3 anterior** — el dato más valioso que falta
-- Año del modelo de la Émonda; si lleva acoples
-- Tipo de rodillo
+- Año del modelo de la Émonda; tipo de rodillo
 - Horarios reales de la piscina
 - Franja horaria de entrenamiento entre semana (mañana o noche)
 - Techo real de horas en fin de semana
-- Historial de lesiones, otras condiciones crónicas, otras alergias, medicación
+- Otras condiciones crónicas, otras alergias, medicación habitual
 - Qué tipo de reacción provocan los AINEs *(pregunta para su médico)*
+
+*(Resueltos el 17 ago 2026: no tiene acoples — recomendado comprarlos; sin
+historial de lesiones.)*

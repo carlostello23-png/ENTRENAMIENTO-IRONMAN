@@ -15,8 +15,14 @@
   humedad alta *(al 17 ago 2026)*
 - **35 años** *(al 17 ago 2026)*
 - **87 kg** *(al 17 ago 2026)*
-- Talla: **DESCONOCIDA** — sin ella, 87 kg no se puede interpretar. **No se
-  especula con composición corporal ni se prescribe pérdida de peso.**
+- **Composición corporal: exceso de grasa, según el propio atleta**
+  *(17 ago 2026)*
+- **Bajar de peso es un objetivo declarado** *(17 ago 2026)*. Se aborda con
+  déficit **periodizado con el plan**, no contra él. Ver
+  `salud/protocolos/deficit-responsable.md`.
+- 🔴 **Talla: DESCONOCIDA.** Bloquea cualquier objetivo calórico — sin talla no
+  hay gasto basal estimable. **Es el hueco que impide construir las skills de
+  nutrición.**
 
 ## El objetivo
 
@@ -75,7 +81,7 @@
 | Rutas para correr | ✅ Con acceso *(17 ago 2026)* |
 | Rutas de ciclismo | ✅ Solo fin de semana *(17 ago 2026)* |
 | **Bici** | ✅ **Trek Émonda SL — bici de ruta de carbono, grupo Shimano 105** *(17 ago 2026)*. Año del modelo DESCONOCIDO. Buena noticia para el parcial de bici: es una bici de ruta de verdad, no una MTB. |
-| **Acoples / manillar aerobarra** | **DESCONOCIDO** — la Émonda es una bici de escalador, no de contrarreloj |
+| **Acoples / manillar aerobarra** | ❌ **No los tiene** *(17 ago 2026)*. Se plantea comprarlos. La Émonda es bici de escalador, no de contrarreloj: en 90 km llanos, **la posición vale más minutos que el peso de la bici**. Es la mejora más rentable por dinero de todo el equipo |
 | **Rodillo** | ✅ **Sí tiene** *(17 ago 2026)* — tipo (rueda fija / directo / smart) DESCONOCIDO |
 | Reloj | ✅ **Garmin** — modelo DESCONOCIDO *(17 ago 2026)* |
 | **Banda pectoral de pulso** | ❌ **No tiene** *(17 ago 2026)* |
@@ -135,7 +141,11 @@ autorizado. Conviene tenerlo resuelto **antes** de noviembre.
 ### Resto
 
 - **Sin lesiones actuales** *(17 ago 2026)*
-- Historial de lesiones: **DESCONOCIDO**
+- **Sin historial de lesiones** *(confirmado el 17 ago 2026)*. Buena noticia: no
+  hay una zona previamente dañada que sea el punto débil evidente. **No es
+  permiso para progresar más rápido** — a 87 kg, volviendo a correr desde cero y
+  sin AINEs disponibles, el riesgo sigue siendo el de siempre. Solo significa que
+  partimos sin deuda.
 - Otras condiciones crónicas: **DESCONOCIDO**
 - Otras alergias: **DESCONOCIDO**
 - Medicación habitual: **DESCONOCIDO**
@@ -204,3 +214,16 @@ autorizado. Conviene tenerlo resuelto **antes** de noviembre.
     DESCONOCIDOS — es ahora el hueco más valioso que queda.
   - **AÑADIDO: inscripción de Cartagena NO hecha.** Pasa a acción urgente.
   - **AÑADIDO: quiere chequeo diario.** Con la regla de señal sobre ruido.
+- **2026-08-17 — Tercera tanda.** Cambios exactos:
+  - **AÑADIDO: composición corporal con exceso de grasa y bajar de peso como
+    objetivo declarado.** Nuevo protocolo
+    `salud/protocolos/deficit-responsable.md` con el déficit periodizado por
+    fase. Nueva sección de límites de nutrición en `CLAUDE.md`.
+  - **RESUELTO: no tiene acoples**, se plantea comprarlos. Recomendado.
+  - **RESUELTO: sin historial de lesiones.** No cambia los límites de
+    progresión.
+  - **AÑADIDO al plan de trabajo:** skills de objetivo calórico, contador de
+    calorías y sugerencia de comidas — pedidas para **más adelante**, no ahora.
+    **Bloqueadas por la falta de la talla.**
+  - **AÑADIDO como norma de operación:** cada tanda de cambios se cierra con
+    commit y push, sin que el atleta lo pida.
