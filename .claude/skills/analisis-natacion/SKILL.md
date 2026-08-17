@@ -5,10 +5,32 @@ description: Analiza una sesión de natación en piscina o aguas abiertas con da
 
 # Análisis de natación
 
-**Su disciplina más fuerte — y el segmento que menos pesa en el reloj.**
-Eso define cómo se analiza: se mantiene el nivel, no se persiguen minutos que
-no están ahí. Ganar 3 minutos nadando cuesta muchísimo trabajo; perder 10 en la
-carrera a pie por haberlos gastado aquí es el error clásico.
+> ⚠️ **CORRECCIÓN del 17 ago 2026.** Este documento decía antes que la natación
+> "rinde poco al reloj" y que había que mantenerla sin maximizarla. **Estaba
+> mal.** Se apoyaba en el supuesto de que nadaba ~35 min, y los parciales reales
+> de su 70.3 anterior dieron **49:00 (2:34/100 m)**. Lo anterior queda
+> `SUPERSEDED`.
+
+**Su disciplina más fuerte, y una de las mejores inversiones del plan.**
+
+Su afirmación de que nadar es lo suyo **se acepta y no se discute** — es fuerte
+en relativo a su bici y su carrera. Pero en términos absolutos, 2:34/100 m no es
+un parcial rápido de 70.3, y eso significa que **hay ~11 minutos recuperables en
+el agua**.
+
+**Por qué eso es oro y no un detalle:**
+
+- **11 minutos es más de lo que se recorta corriendo**, con muchísimo menos
+  sufrimiento.
+- **Riesgo de lesión: cero.** En un atleta de 87 kg volviendo de cero y **sin
+  AINEs disponibles**, la natación es forma aerobia gratis sin carga
+  estructural. Eso vale muchísimo aquí.
+- **Es su punto fuerte**, así que responde rápido al entrenamiento.
+- **Protege el plan entero:** si aparece una molestia corriendo, la natación es
+  donde se trasvasa el volumen sin perder forma.
+
+**Objetivo de trabajo: 2:34 → ~2:00 /100 m.** No es una mejora heroica; es lo
+que da entrenar con constancia alguien que ya sabe nadar.
 
 ## La restricción principal
 
@@ -72,11 +94,14 @@ falta de verdad: correr y pedalear.
 ## Prioridades de las sesiones
 
 1. **Resistencia continua** — 1,9 km sin parar, no series de 100 con descanso.
-   Es lo que replica la carrera.
-2. **Técnica y eficiencia** — mantener lo que ya tiene.
-3. **Nadar sin neopreno siempre**, para acostumbrar el tren superior.
-4. **No maximizar.** Es su punto fuerte y el segmento más corto. El tiempo que
-   sobre vale mucho más en la bici o corriendo.
+   Es lo que replica la carrera, y a 2:34/100 m el problema anterior fue casi
+   con seguridad de resistencia y ritmo, no de técnica.
+2. **Ritmo sostenido.** Series largas (400–800 m) a ritmo objetivo, para
+   aprender a mantener ~2:00/100 m sin salirse.
+3. **Técnica y eficiencia** — brazadas por largo y SWOLF como tendencia propia.
+4. **Nadar sin neopreno siempre**, para acostumbrar el tren superior.
+5. **Sí invertir horas aquí.** Es tiempo con retorno alto y riesgo cero — la
+   combinación que mejor le va a este atleta concreto.
 
 ## Formato de salida
 

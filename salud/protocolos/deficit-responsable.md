@@ -120,11 +120,38 @@ de noviembre.
 
 ## Lo que hace falta para poner números de verdad
 
-🔴 **Falta la talla.** Sin ella no se puede estimar el gasto basal, y por lo
-tanto **no se puede dar un objetivo calórico**. Un número inventado ahí es peor
-que ningún número.
+🔴 **Falta la ESTATURA en centímetros.**
 
-También ayudaría, y no es imprescindible:
+*(Corrección del 17 ago 2026: en la primera versión de este documento se dijo
+que sin la estatura "no hay gasto basal estimable". **Estaba exagerado** y se
+corrige aquí. La versión precisa está abajo.)*
+
+**Para qué NO es tan crítica.** El gasto basal apenas se mueve con la estatura.
+Con Mifflin-St Jeor a 87 kg y 35 años: ~1.730 kcal a 1,65 m, ~1.795 a 1,75 m,
+~1.855 a 1,85 m. **125 kcal en 20 cm.** Poco.
+
+**Para qué SÍ es decisiva — interpretar los 87 kg.** Aquí lo cambia todo:
+
+| Estatura | IMC a 87 kg | Margen para bajar |
+|---|---|---|
+| 1,65 m | 32,0 | Muy amplio (12–15 kg) |
+| 1,75 m | 28,4 | Claro |
+| 1,85 m | 25,4 | Pequeño (4–5 kg) |
+| 1,90 m | 24,1 | Ya en rango normal |
+
+**Sin este dato no se puede decidir cuánto es razonable bajar**, ni cuánta parte
+de la brecha hacia el 6:30 es composición corporal y cuánta es forma física.
+Son dos problemas distintos con soluciones distintas, y confundirlos lleva a
+pautar un déficit demasiado grande o demasiado pequeño.
+
+*(Límite del IMC: no distingue músculo de grasa, así que en un atleta muy
+musculado sería mal indicador. Aquí sí informa, porque el propio atleta declara
+exceso de grasa.)*
+
+**También hace falta para la ecuación:** el sexo biológico es una entrada
+obligatoria de Mifflin-St Jeor (las constantes cambian). No se asume.
+
+Ayudaría, sin ser imprescindible:
 - Estimación de % de grasa corporal, si tiene acceso a una medición
 - Peso en ayunas varios días seguidos, para tener una línea base real (el peso
   diario oscila 1–2 kg por hidratación y glucógeno — **manda la media semanal,
@@ -138,7 +165,7 @@ que no se pierdan:
 
 | Skill | Qué haría | Bloqueada por |
 |---|---|---|
-| `objetivo-calorico` | Calcular el objetivo del día según fase, sesión prevista y peso | **Falta la talla** |
+| `objetivo-calorico` | Calcular el objetivo del día según fase, sesión prevista y peso | **Falta la estatura y el sexo biológico** |
 | `contador-calorias` | Registro de ingesta contra el objetivo del día | Falta decidir de dónde salen los datos de comida |
 | `sugerencia-comidas` | Propuestas que cumplan calorías y proteína, con comida de Bogotá | Depende de las dos anteriores |
 

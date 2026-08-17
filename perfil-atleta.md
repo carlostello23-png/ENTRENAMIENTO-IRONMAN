@@ -20,9 +20,15 @@
 - **Bajar de peso es un objetivo declarado** *(17 ago 2026)*. Se aborda con
   déficit **periodizado con el plan**, no contra él. Ver
   `salud/protocolos/deficit-responsable.md`.
-- 🔴 **Talla: DESCONOCIDA.** Bloquea cualquier objetivo calórico — sin talla no
-  hay gasto basal estimable. **Es el hueco que impide construir las skills de
-  nutrición.**
+- 🔴 **ESTATURA: DESCONOCIDA.** *(Pedírsela como "estatura en cm", no como
+  "talla" — la palabra generó confusión el 17 ago 2026.)*
+  **Bloquea las skills de nutrición.** El motivo preciso: mueve poco el gasto
+  basal (~125 kcal entre 1,65 m y 1,85 m), pero **decide cómo se interpretan 87
+  kg** — IMC 32,0 a 1,65 m contra 24,1 a 1,90 m — y por tanto cuánto es
+  razonable bajar y cuánta parte de la brecha hacia el 6:30 es composición
+  corporal en vez de forma física.
+- **Sexo biológico: DESCONOCIDO.** Entrada obligatoria de la ecuación de gasto
+  basal (Mifflin-St Jeor). No se asume.
 
 ## El objetivo
 
@@ -33,10 +39,26 @@
   Resultado: por debajo de lo esperado.
   Causa según el atleta: **"no entrené mucho y los tiempos no fueron los
   esperados"** *(al 17 ago 2026)*
-  - Edición, sede y año de aquel intento: **DESCONOCIDO**
-  - **Tiempo final y parciales: DESCONOCIDOS.** Es el hueco más valioso que
-    queda abierto — un tiempo real de 70.3, aunque saliera mal, es el mejor
-    predictor disponible para calibrar el 6:30. Mejor que cualquier test.
+  - **PARCIALES REALES** *(aportados el 17 ago 2026, "más o menos" según el
+    atleta — cifras aproximadas, no oficiales)*:
+
+    | Segmento | Tiempo | Ritmo |
+    |---|---|---|
+    | Natación 1,9 km | **49:00** | 2:34 /100 m |
+    | Bici 90 km | **3:30:00** | 25,7 km/h |
+    | Carrera 21,1 km | **2:50:00** | 8:04 /km |
+    | Suma de segmentos | **7:09** | |
+    | Con transiciones *(estimadas)* | **~7:19** | |
+
+    **Es el dato más valioso del perfil.** Convierte el 6:30 en un recorte
+    medible de 49 minutos (~11 %) en vez de una aspiración. Y como fue un
+    resultado **sin entrenar**, no marca un techo. Análisis completo en
+    `entrenamiento/plan.md` §1.
+  - Edición, sede y año de aquel intento: **DESCONOCIDO.** Importa: **si fue en
+    Cartagena, ese 8:04/km ya incluye el calor y la humedad**, y entonces es una
+    referencia mucho más directa. Si fue en otro sitio con clima templado, el
+    ritmo de Cartagena será peor que ese.
+  - Tiempo oficial exacto: **DESCONOCIDO** (los parciales son aproximados)
   - **Lectura:** el fallo anterior fue de **consistencia de entrenamiento**, no
     de talento ni de estrategia de carrera. Eso hace que la variable número uno
     de este bloque sea **aparecer todos los días**, no la sofisticación de las
@@ -53,8 +75,8 @@
 
 | | Nivel declarado | Notas |
 |---|---|---|
-| **Natación** | **La más fuerte** *(17 ago 2026)* | Ventaja real, pero es el segmento más corto en tiempo. Rinde poco al reloj. |
-| **Ciclismo** | No declarado | ~50 % del tiempo de carrera. El mayor retorno por hora invertida. |
+| **Natación** | **La más fuerte** *(17 ago 2026)* | Fuerte **en relativo a sus otras dos disciplinas** — su afirmación se acepta. En absoluto, 2:34/100 m no es rápido para un 70.3, así que **hay ~11 min recuperables aquí, con riesgo de lesión cero.** Es prioridad, no mantenimiento. Ver `plan.md` §1b. |
+| **Ciclismo** | No declarado | ~50 % del tiempo de carrera y **donde más tiempo hay: ~20 min.** El mayor retorno por hora invertida. |
 | **Carrera a pie** | **La más floja** *(17 ago 2026)* | Es donde se decide el 6:30 **y** donde el calor de Cartagena hace más daño. Máxima prioridad y máximo riesgo de lesión. |
 
 - Marcas personales / referencias de rendimiento: **DESCONOCIDO** en las tres
@@ -224,6 +246,25 @@ autorizado. Conviene tenerlo resuelto **antes** de noviembre.
     progresión.
   - **AÑADIDO al plan de trabajo:** skills de objetivo calórico, contador de
     calorías y sugerencia de comidas — pedidas para **más adelante**, no ahora.
-    **Bloqueadas por la falta de la talla.**
+    **Bloqueadas por la falta de la estatura.**
   - **AÑADIDO como norma de operación:** cada tanda de cambios se cierra con
     commit y push, sin que el atleta lo pida.
+- **2026-08-17 — Cuarta tanda. Los parciales del 70.3 anterior.**
+  - **AÑADIDO: parciales reales — 49:00 nadando, 3:30 en bici, 2:50 corriendo
+    (~7:19 con transiciones).** Aproximados, no oficiales.
+  - **REESCRITO `entrenamiento/plan.md` §1.** La versión anterior de la
+    aritmética del 6:30 queda **`SUPERSEDED`**: estaba construida sobre
+    supuestos y uno era falso. Ahora el 6:30 es un recorte medible de 49 min.
+  - **BANDA DE OBJETIVO REVISADA A MEJOR: de 6:30–7:15 a 6:35–7:00.** Motivo: se
+    sabe ahora que la línea de partida era un resultado **sin entrenar**, no un
+    techo.
+  - **⚠️ CORRECCIÓN DE PRIORIDADES — la natación pasa de "mantener" a
+    PRIORIDAD.** Se decía que rendía poco al reloj; eso asumía ~35 min de
+    natación y nadó 49:00. Hay ~11 min recuperables en el agua con **riesgo de
+    lesión cero** — muy valioso en un atleta de 87 kg sin AINEs. Corregido en
+    `plan.md` §1b, en la skill `analisis-natacion` y en `planificar-semana`.
+  - **CORREGIDA una imprecisión propia:** se había dicho que sin la estatura "no
+    hay gasto basal estimable". Exagerado. La estatura mueve ~125 kcal en 20 cm;
+    lo que de verdad decide es **cómo interpretar 87 kg**. Corregido en
+    `CLAUDE.md` y en `deficit-responsable.md`.
+  - **APRENDIDO:** pedir **"estatura en cm"**, nunca "talla".

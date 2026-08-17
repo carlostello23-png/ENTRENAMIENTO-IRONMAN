@@ -58,8 +58,13 @@ español. Si edito un archivo, mantengo el idioma de ese archivo.
   déficit. Volumen alto → mantenimiento. Ver
   `salud/protocolos/deficit-responsable.md`.
 - **NUNCA déficit en semana de test, en el taper ni en la semana de carrera.**
-- **NUNCA doy un objetivo calórico sin la talla.** Sin talla no hay gasto basal
-  estimable, y un número inventado ahí es peor que ningún número.
+- **NUNCA doy un objetivo calórico sin la ESTATURA** (en cm) **y el sexo
+  biológico** — son entradas obligatorias de la ecuación. Ojo con el motivo
+  real: la estatura mueve poco el gasto basal (~125 kcal en 20 cm), pero
+  **decide cómo se interpretan 87 kg** (IMC 32 a 1,65 m vs 24 a 1,90 m) y por
+  tanto cuánto es razonable bajar.
+- **Al atleta hay que pedirle "estatura", no "talla".** "Talla" se entiende como
+  S/M/L y ya generó una confusión el 17 ago 2026.
 - **Las calorías que estima Garmin son estimaciones, no medidas** — misma regla
   que los vatios. Sin banda pectoral el error es grande. No se citan como dato
   y **no se usan como base del déficit**.

@@ -42,7 +42,7 @@ vamos, el otro es lo que se puede. **Cuando chocan, gana `restricciones.md`.**
 | `/revision-semanal` | Planificado vs real. Añade a `revisiones/` |
 | `/analisis-carrera` | Sesión de correr — ritmo, deriva cardíaca, señales de lesión |
 | `/analisis-bici` | Sesión de bici — tiempo y RPE. Sin vatios, no hay potenciómetro |
-| `/analisis-natacion` | Sesión de nado — ritmo/100 m, eficiencia. Sin pulso |
+| `/analisis-natacion` | Sesión de nado — ritmo/100 m, eficiencia. Sin pulso. **Prioridad, no mantenimiento** |
 | `/analisis-fuerza` | Gimnasio — carga y frecuencia. Sin historia de pulso |
 
 **Están escritas por separado a propósito.** Las métricas de cada deporte son
@@ -63,7 +63,7 @@ que envolverlas.
 
 | Skill | Qué haría | Bloqueada por |
 |---|---|---|
-| `objetivo-calorico` | Objetivo del día según fase del plan, sesión prevista y peso | 🔴 **Falta la talla** |
+| `objetivo-calorico` | Objetivo del día según fase del plan, sesión prevista y peso | 🔴 **Falta la ESTATURA** (en cm) y el sexo biológico |
 | `contador-calorias` | Registro de ingesta contra el objetivo del día | Decidir de dónde salen los datos de comida |
 | `sugerencia-comidas` | Propuestas que cumplan calorías y proteína, con comida de Bogotá | Depende de las dos anteriores |
 
@@ -118,18 +118,22 @@ Se dicen desconocidos, no se rellenan con números plausibles.
 
 - 🔴 **La inscripción de Cartagena NO está hecha.** Lo más urgente del proyecto:
   entrenando para una carrera sin plaza reservada.
-- **Tiempo y parciales del 70.3 que ya completó** — el dato más valioso que
-  falta. Un tiempo real de 70.3, aunque saliera mal, calibra el 6:30 mejor que
-  cualquier test.
-- 🔴 **Talla.** **Bloquea las tres skills de nutrición** — sin ella no hay gasto
-  basal estimable y cualquier objetivo calórico sería un número inventado.
+- **Sede y año del 70.3 anterior.** Importa de verdad: **si fue en Cartagena,
+  ese 8:04/km ya incluye el calor y la humedad** y es una referencia directa. Si
+  fue en clima templado, en Cartagena será peor que eso.
+- 🔴 **ESTATURA en cm** *(no la talla S/M/L — la palabra "talla" ya generó una
+  confusión el 17 ago 2026)*. **Bloquea las tres skills de nutrición.** El motivo
+  real: mueve poco el gasto basal (~125 kcal en 20 cm), pero **decide cómo se
+  interpretan 87 kg** — IMC 32 a 1,65 m contra 24 a 1,90 m — y por tanto cuánto
+  es razonable bajar. También hace falta el **sexo biológico** para la ecuación.
 - Otras condiciones crónicas, otras alergias, medicación habitual
 - **Qué tipo de reacción provocan los AINEs** *(pregunta para su médico)*
 - Año del modelo de la Émonda; tipo de rodillo
 - Horarios de la piscina, franja de entrenamiento entre semana
 - Techo real de horas en fin de semana
 
-**Resueltos el 17 ago 2026:** edad (35), peso (87 kg), bici (Trek Émonda SL ·
+**Resueltos el 17 ago 2026:** **parciales del 70.3 anterior (49:00 / 3:30 /
+2:50 → ~7:19)**, edad (35), peso (87 kg), bici (Trek Émonda SL ·
 105), rodillo (sí), **acoples (no los tiene — recomendado comprarlos antes de la
 semana 9)**, aguas abiertas (sí, varias veces), **sin historial de lesiones**,
 chequeo diario (sí), alergia a AINEs (regla de seguridad), **objetivo de bajar
@@ -149,13 +153,13 @@ que se fusione mediante un Pull Request.
 2. ✅ *Hecho — las siete skills cargan correctamente (verificado el 17 ago 2026).*
 3. Llevar el Garmin también para dormir — el reloj de los 14 días de línea base
    corre desde ya
-4. Recuperar el tiempo y los parciales del 70.3 anterior
-5. Cerrar los huecos de salud que quedan antes de escribir reglas automáticas
-6. **Dar la talla** — desbloquea las skills de nutrición y permite poner números
-   al déficit
+4. **Dar la ESTATURA en cm** (no la talla S/M/L) — desbloquea las skills de
+   nutrición y permite decidir cuánto es razonable bajar
+5. Decir en qué sede y año fue el 70.3 anterior
+6. Cerrar los huecos de salud que quedan antes de escribir reglas automáticas
 7. **Comprar e instalar acoples** antes de la semana 9 (12 oct)
 8. **Automatización** (chequeo diario + revisión semanal en `cron`) — **aún no
    construida.** El atleta pidió chequeo diario, así que esto sube de prioridad.
 9. **Conexión con Garmin Connect** — **aún no construida.** Hoy los datos entran
    a mano y el dashboard se escribe a mano.
-10. **Skills de nutrición** — cuando llegue la talla y el atleta lo pida.
+10. **Skills de nutrición** — cuando llegue la estatura y el atleta lo pida.

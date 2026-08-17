@@ -7,52 +7,94 @@
 
 ---
 
-## 1. La aritmética del 6:30 — léela antes que nada
+## 1. La aritmética del 6:30 — sobre datos reales
 
-Un 70.3 en 6:30:00 son **390 minutos**. Repartidos de forma realista en
-Cartagena (recorrido llano, agua caliente → **sin neopreno**, calor y humedad):
+*(Reescrito el 17 ago 2026, cuando el atleta aportó los parciales de su 70.3
+anterior. **La versión anterior de esta sección está SUPERSEDED** — estaba
+construida sobre supuestos y uno de ellos era falso. Ver §1b.)*
 
-| Segmento | Tiempo | Ritmo que implica |
+### La línea de partida real
+
+| Segmento | Tiempo anterior | Ritmo real |
 |---|---|---|
-| Natación 1,9 km | 0:35 | ~1:50 /100 m |
-| T1 | 0:05 | |
-| Bici 90 km | 3:10 | **~28,4 km/h de media** |
-| T2 | 0:04 | |
-| **Carrera 21,1 km** | **2:36** | **~7:24 /km** |
-| **Total** | **6:30** | |
+| Natación 1,9 km | **49:00** | 2:34 /100 m |
+| Bici 90 km | **3:30:00** | 25,7 km/h |
+| Carrera 21,1 km | **2:50:00** | 8:04 /km |
+| Suma de segmentos | **7:09** | |
+| Con transiciones *(est. ~10 min)* | **~7:19** | |
 
-**Dónde está la dificultad real:** no en la natación (tu punto fuerte, y encima
-es el segmento que menos pesa en el reloj — ganar 3 minutos nadando es mucho
-esfuerzo para poco retorno). Está en **correr 7:24/km después de casi 4 horas de
-esfuerzo, a 30 °C y con 80 % de humedad**.
+**Para 6:30 hay que recortar 49 minutos.** Un 11 % del tiempo total.
 
-Para correr a 7:24/km en esas condiciones y con esa fatiga acumulada, hay que
-ser capaz de correr un medio maratón **en fresco y en frío en torno a 2:05–2:15**
-(unos 5:55–6:25 /km). El calor tropical y la fatiga de la bici se llevan entre un
-10 % y un 20 % del ritmo en atletas no aclimatados.
+### De dónde salen esos 49 minutos
 
-**El veredicto sin adornos:**
+| Segmento | Anterior | Objetivo | Recorte | Coste / riesgo |
+|---|---|---|---|---|
+| **Bici** | 3:30 (25,7 km/h) | **3:10** (28,4 km/h) | **−20 min** | Bajo. Es donde hay más tiempo y ningún riesgo estructural. Acoples + entrenamiento |
+| **Carrera** | 2:50 (8:04 /km) | **2:34** (7:18 /km) | **−16 min** | **Alto.** Disciplina más floja, calor de Cartagena, riesgo de lesión a 87 kg |
+| **Natación** | 49:00 (2:34 /100 m) | **38:00** (2:00 /100 m) | **−11 min** | **Bajo, y es la sorpresa de este análisis.** Ver §1b |
+| Transiciones | ~10 min | 8 min | −2 min | Gratis. Practicarlas |
+| **Total** | **~7:19** | **6:30** | **−49 min** | |
 
-- 6:30 es **agresivo pero no absurdo** — está justo en el borde.
-- Lo que decide si es alcanzable es **tu capacidad real corriendo**, que hoy es
-  **DESCONOCIDA** y es además tu disciplina más floja.
-- Partir de **base cero** con 15 semanas significa que **no sobra ni una semana**.
-  El intento anterior falló por no entrenar; ese es el riesgo que hay que matar.
-- Banda realista si el bloque se cumple entero: **6:30 – 7:15**. El 6:30 está en
-  el extremo optimista de esa banda, no en el medio.
+### El veredicto, ahora con datos
 
-**No fijo el objetivo por decreto. Lo convierto en un punto de control:**
+**El 6:30 es más creíble de lo que parecía, y la razón importa:** ese 7:19 **no
+es tu techo, es tu resultado sin entrenar.** Tú mismo lo dijiste — "no entrené
+mucho". Recortar un 11 % sobre un resultado sin preparación no es lo mismo que
+recortar un 11 % sobre un rendimiento bien entrenado. Lo primero es corriente;
+lo segundo sería casi imposible.
 
-> **Test de campo, semana 3 (31 ago – 6 sep).**
-> Si el test da un ritmo umbral de carrera de **~6:00 /km o mejor**, el 6:30
-> sigue sobre la mesa y el plan apunta ahí.
-> Si sale claramente por encima, se recalibra el objetivo con honestidad en la
-> revisión de esa semana — no se disimula ni se mantiene un número que los datos
-> ya no sostienen.
+Y hay cuatro palancas que se suman, no una:
+1. **Entrenar de verdad 15 semanas** (la que faltó la vez anterior)
+2. **Bajar 4–6 kg** — vale minutos directos en la carrera a pie
+3. **Acoples en la bici** — minutos por poco dinero en 90 km llanos
+4. **Aclimatación al calor** — la que casi nadie hace
 
-**Objetivo primario:** terminar con una ejecución limpia y sin caminar en el
-medio maratón.
+**Banda realista revisada: 6:35 – 7:00**, con el **6:30 genuinamente en juego**
+si el bloque se cumple entero. *(La estimación anterior era 6:30–7:15; se
+revisa a mejor porque ahora se sabe que la línea de partida era un resultado sin
+entrenar, no un límite.)*
+
+**Sigue habiendo un crux, y es el mismo:** correr a **7:18 /km** al final, con
+30 °C y 80 % de humedad. Es 46 s/km más rápido que la vez anterior. Es la parte
+más dura del plan y la de más riesgo.
+
+**El punto de control no cambia:**
+
+> **Test de campo, semana 3 (31 ago – 6 sep).** Si el test da ~6:00 /km o mejor,
+> el 6:30 se mantiene como objetivo. Si sale claramente peor, se recalibra en la
+> revisión de esa semana, con el número delante y sin disimular.
+
+**Objetivo primario:** bajar de 7:00 y correr el medio maratón entero **sin
+caminar**.
 **Objetivo secundario:** 6:30, condicionado al test de la semana 3.
+
+## 1b. Corrección: la natación pasa de "mantener" a **prioridad**
+
+**Lo que escribí antes estaba mal y se corrige aquí.** Decía que la natación
+"rinde poco al reloj" y que había que mantenerla, no maximizarla. Ese
+razonamiento se apoyaba en un supuesto **falso**: que nadaba en torno a 35 min.
+
+**Nada en 49 minutos, o sea 2:34/100 m.** Eso no es un parcial rápido de 70.3 en
+términos absolutos. Su afirmación de que la natación es su disciplina más fuerte
+sigue siendo válida — **es fuerte en relativo a su bici y su carrera**, y no se
+discute porque él se conoce. Pero en absoluto **hay ~11 minutos sobre la mesa en
+el agua**, y eso lo cambia todo.
+
+**Por qué la natación pasa a ser una de las mejores inversiones del plan:**
+
+- **11 minutos es más que lo que se recorta corriendo con muchísimo más
+  sufrimiento y riesgo.**
+- **Riesgo de lesión: cero.** Y eso, en un atleta de 87 kg volviendo de cero
+  **sin AINEs disponibles**, no es un detalle menor: es forma aerobia gratis sin
+  carga estructural.
+- **Es su disciplina más fuerte**, o sea la que responde antes al
+  entrenamiento — el retorno por hora es alto.
+- Nadar más también **protege el plan**: si aparece una molestia corriendo, la
+  natación es donde se trasvasa el volumen.
+
+**Consecuencia práctica:** la natación deja de ser "mantenimiento". Sube en la
+lista de prioridades de `planificar-semana`, y la skill `analisis-natacion` deja
+de decir "no maximizar".
 
 ## 2. Principio rector de este bloque
 
@@ -190,14 +232,15 @@ tendinopatía cuesta más que todo lo que se gane apretando ahora.
 
 Este es el panel que más importa y el que el dashboard muestra arriba.
 
-| | Sesión más larga hoy | Distancia de carrera | Brecha |
-|---|---|---|---|
-| Natación | 0 | 1,9 km | Completa |
-| Bici | 0 | 90 km | Completa |
-| Carrera | 0 | 21,1 km | Completa |
+| | Sesión más larga hoy | Distancia de carrera | Brecha | Ritmo objetivo |
+|---|---|---|---|---|
+| Natación | 0 | 1,9 km | Completa | ~2:00 /100 m *(antes 2:34)* |
+| Bici | 0 | 90 km | Completa | ~28,4 km/h *(antes 25,7)* |
+| Carrera | 0 | 21,1 km | Completa | ~7:18 /km *(antes 8:04)* |
 
 Base cero: las tres brechas están abiertas al 100 %. Se actualiza cada semana
-con datos reales de Garmin.
+con datos reales de Garmin. La columna de ritmo objetivo sale de §1 y da una
+referencia concreta contra la que medir cada sesión.
 
 ## 7. Lo que decide este plan y aún no está resuelto
 

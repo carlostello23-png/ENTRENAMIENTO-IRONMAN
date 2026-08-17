@@ -64,12 +64,16 @@ Hasta entonces: **RPE y regla de conversación.**
 1. **Consistencia sobre todo.** El intento anterior falló por no entrenar. Un
    plan aburrido que se cumple gana a uno brillante que se abandona. Si hay
    duda entre ambicioso y cumplible, **cumplible**.
-2. **La carrera a pie decide el resultado** — y es donde se puede lesionar.
-   Prioridad alta, progresión lenta. No hay contradicción: frecuencia antes que
-   duración.
-3. **La bici es ~50 % del tiempo de carrera** — el mayor retorno por hora.
-4. **La natación es el punto fuerte y el segmento más corto.** Mantener. No
-   invertir horas ahí buscando minutos que no llegan.
+2. **La bici es donde hay más tiempo: ~20 min de los 49 que hay que recortar.**
+   ~50 % del tiempo de carrera, riesgo estructural nulo. Mayor retorno por hora.
+3. **La natación es la segunda mejor inversión: ~11 min, con riesgo cero.**
+   *(Corregido el 17 ago 2026 — antes decía "mantener, no maximizar", basado en
+   un supuesto falso. Nadó 49:00 en su 70.3. Ver `plan.md` §1b.)* Es su punto
+   fuerte, responde rápido, y no castiga estructuralmente a un atleta de 87 kg
+   sin AINEs disponibles.
+4. **La carrera a pie da ~16 min pero es la de más riesgo.** Prioridad alta en
+   atención, **progresión lenta** en volumen. Frecuencia antes que duración. Es
+   donde el bloque se puede romper.
 5. **Desde la semana 9, la aclimatación al calor entra en el calendario** como
    sesiones reales, no como nota (`salud/protocolos/aclimatacion-calor.md`).
 
