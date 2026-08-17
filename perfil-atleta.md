@@ -24,10 +24,10 @@
 - **IMC: 28,1** — sobrepeso, no obesidad. Margen real pero no enorme. IMC 25
   serían 77,4 kg; el objetivo para el 29 de noviembre es **~84 kg (IMC 27,1)**.
   Bajar a 77 kg es objetivo de 2027, no de este bloque.
-- **Gasto basal estimado: ~1.800 kcal/día** (Mifflin-St Jeor).
-  🔴 **Calculado con la fórmula masculina — el sexo biológico NO está declarado
-  y es entrada obligatoria de la ecuación.** Con la femenina serían ~1.634 kcal
-  y todos los objetivos calóricos bajan ~165 kcal. **Preguntar, no asumir.**
+- **Sexo biológico: masculino** *(confirmado el 17 ago 2026)*
+- ✅ **Gasto basal: ~1.800 kcal/día** (Mifflin-St Jeor, fórmula masculina —
+  **ya confirmada**, no asumida). Los objetivos calóricos por fase en
+  `salud/protocolos/deficit-responsable.md` quedan validados.
 - *(Nota de vocabulario: pedirle **"estatura en cm"**, nunca "talla" — se
   entiende como S/M/L y generó confusión el 17 ago 2026.)*
 
@@ -64,9 +64,13 @@
     - **Y tampoco estaba aclimatado al calor** (vive en Bogotá), así que la
       aclimatación es una ganancia **nueva** encima de todo lo demás.
     - **Conoce el recorrido.**
-  - Año de aquel intento: **DESCONOCIDO** (serviría para buscar el resultado
-    oficial y tener parciales exactos en vez de aproximados)
-  - Tiempo oficial exacto: **DESCONOCIDO** (los parciales son aproximados)
+  - ✅ **Año: 2025** *(el año pasado — edición del 30 nov 2025)*
+  - ✅ **Dorsal: 1825**
+  - Tiempo oficial exacto: **DESCONOCIDO.** Se intentó buscar el 17 ago 2026 y
+    **no se pudo**: SportStats, CoachCox e ironman.com están **bloqueados por la
+    política de red del entorno**. No es que no se encontrara — no se puede
+    llegar. **Con año 2025 y dorsal 1825, el atleta puede sacarlo en un minuto**,
+    o una sesión futura con otra red. Mientras tanto valen los aproximados.
   - **Lectura:** el fallo anterior fue de **consistencia de entrenamiento**, no
     de talento ni de estrategia de carrera. Eso hace que la variable número uno
     de este bloque sea **aparecer todos los días**, no la sofisticación de las
@@ -74,9 +78,10 @@
 
 ## Bloque actual
 
-- **No está entrenando en este momento** *(al 17 ago 2026)*
-- Volumen semanal actual: **0 h**
-- **Base de partida: cero.** El plan arranca con reactivación, no con carga.
+- **Base de partida: cero.** No entrenaba al arrancar el bloque *(17 ago 2026)*.
+  El plan arranca con reactivación, no con carga.
+- **Bloque iniciado el lunes 17 ago 2026.** Primera sesión hecha ese mismo día
+  (natación) — **autorreportada, el reloj no grabó**.
 - Días hasta la carrera desde el arranque: **104 (15 semanas exactas)**
 
 ## Disciplinas
@@ -291,3 +296,17 @@ autorizado. Conviene tenerlo resuelto **antes** de noviembre.
     los 49 minutos lo tiene que poner el entrenamiento.
   - **SIGUE ABIERTO: sexo biológico**, necesario para la ecuación de gasto basal.
     Los números actuales usan la fórmula masculina sin confirmar.
+- **2026-08-17 — Sexta tanda.**
+  - ✅ **CONFIRMADO: sexo biológico masculino.** El gasto basal de ~1.800
+    kcal/día y todos los objetivos calóricos por fase quedan **validados**, ya no
+    son un supuesto.
+  - ✅ **AÑADIDO: el 70.3 anterior fue la edición 2025 (30 nov 2025), dorsal
+    1825.** Se intentó recuperar el resultado oficial y **no fue posible**: las
+    webs de resultados están bloqueadas por la política de red del entorno. Con
+    año y dorsal, es recuperable en cualquier momento.
+  - **AÑADIDO: primera sesión del bloque hecha el 17 ago (natación), pero SIN
+    GRABAR.** Registrada como `AUTORREPORTADA`. Nueva regla en `CLAUDE.md` →
+    "Cosas que nos han mordido": cuenta para consistencia, no recibe análisis
+    fisiológico, y la revisión semanal tiene que mostrar cuántas fueron
+    autorreportadas.
+  - **PENDIENTE del atleta:** la inscripción (dijo que se ocupa más tarde).

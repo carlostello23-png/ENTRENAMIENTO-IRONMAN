@@ -42,6 +42,22 @@ El intento anterior falló por falta de entrenamiento. Esta es la cifra que
 predice el resultado de noviembre, por encima de cualquier otra. **Va primero
 en la revisión, siempre.**
 
+### Sesiones autorreportadas — se cuentan y se separan
+
+Una sesión que el atleta hizo pero el reloj **no grabó** *(pasó el 17 ago 2026,
+día 1)*:
+
+- **CUENTA para consistencia.** Él estuvo ahí y yo no. No contarla haría mentir
+  a la baja precisamente a la métrica que decide el bloque.
+- **Se marca `AUTORREPORTADA`** y se cuenta aparte de las de Garmin.
+- **NO recibe análisis fisiológico.** Sin datos no hay ritmo, ni pulso, ni
+  deriva, ni volumen. Decir cualquier cosa sobre ellos sería fabricar precisión.
+- **La revisión SIEMPRE muestra el desglose**, así:
+  `Consistencia: 5/6 · 3 con datos de Garmin, 2 autorreportadas`
+- **Si las autorreportadas pasan a ser la mayoría, se dice claramente que la
+  base de datos del proyecto se ha perdido** y que las tendencias ya no se
+  pueden sostener. No se disimula con análisis sobre datos que no existen.
+
 ## Estructura
 
 ```markdown

@@ -141,6 +141,19 @@ del archivo a los seis meses.)*
 - **Sesión duplicada:** si algún día el móvil y el reloj registran lo mismo, se
   queda la que tenga distancia/carga real, se excluye la otra y se anota cuál y
   por qué. Contar las dos infla el día.
+- **2026-08-17 — Sesión hecha pero SIN GRABAR (nos mordió el día 1).** El atleta
+  nadó y el reloj no registró. Regla:
+  - **La sesión CUENTA para consistencia.** Él estuvo ahí y yo no. No contarla
+    sería el fallo silencioso clásico: la métrica que decide este bloque
+    (sesiones cumplidas / planificadas) mentiría a la baja.
+  - **Se marca `AUTORREPORTADA`** en el registro, distinta de las de Garmin.
+  - **NO recibe análisis fisiológico.** Sin datos no hay ritmo, ni pulso, ni
+    deriva. Inventar cualquiera de esas cosas sería fabricar precisión.
+  - **La revisión semanal debe mostrar cuántas fueron autorreportadas.** Si pasan
+    a ser la mayoría, la base de datos del proyecto se ha perdido y **eso se
+    dice**, no se disimula.
+  - Ojo: **grabar una sesión y llevar el reloj de noche son cosas distintas.** La
+    línea base de FC en reposo y HRV depende de lo segundo.
 - **El entrenamiento cruzado se cae de los filtros.** Si el código solo conoce
   correr/bici/natación/fuerza, un partido de tenis pasa a ser carga cero.
 
