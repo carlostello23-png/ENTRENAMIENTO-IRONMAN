@@ -144,8 +144,21 @@ grasa (protocolo de déficit periodizado)**.
 **Cada tanda de cambios se cierra con commit y push**, sin que el atleta lo
 pida *(acordado el 17 ago 2026)*. El repositorio queda siempre al día.
 
-Rama de trabajo: `claude/new-session-s2ywkn`. La rama `main` sigue vacía hasta
-que se fusione mediante un Pull Request.
+### Ramas *(al 17 ago 2026)*
+
+| Rama | Qué es |
+|---|---|
+| **`main`** | Rama principal. Creada el 17 ago 2026 con los 5 primeros commits del proyecto. **Pendiente: marcarla como rama por defecto en los ajustes de GitHub** — eso no se puede hacer por API desde aquí, lo tiene que hacer el atleta |
+| `claude/new-session-s2ywkn` | Rama de trabajo. Es donde se desarrolla |
+
+**Ojo con el arranque:** el repositorio estaba **completamente vacío** (cero
+commits) cuando se creó el proyecto, así que `main` no existía — no es que
+estuviera vacía, es que no estaba. Por eso los primeros cinco commits no
+pudieron pasar por un Pull Request: no había rama base contra la que abrirlo.
+
+**De aquí en adelante sí:** con `main` ya existiendo, cualquier cambio nuevo en
+la rama de trabajo produce un diff real contra `main` y **se puede abrir un Pull
+Request de verdad, con su revisión línea a línea**.
 
 ## Lo siguiente
 
