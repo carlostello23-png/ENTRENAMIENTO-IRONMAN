@@ -1,0 +1,276 @@
+<title>Panel Cartagena 70.3</title>
+<style>
+  :root {
+    color-scheme: light;
+    --plane:      #f9f9f7;
+    --surface:    #fcfcfb;
+    --ink:        #0b0b0b;
+    --ink-2:      #52514e;
+    --ink-muted:  #898781;
+    --line:       #e1e0d9;
+    --border:     rgba(11,11,11,0.10);
+    --nat:        #2a78d6;
+    --bici:       #eb6834;
+    --carrera:    #1baf7a;
+    --good:       #0ca30c;
+    --warning:    #fab219;
+    --critical:   #d03b3b;
+    --track:      #ecebe6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --plane:     #0d0d0d;
+      --surface:   #1a1a19;
+      --ink:       #ffffff;
+      --ink-2:     #c3c2b7;
+      --ink-muted: #898781;
+      --line:      #2c2c2a;
+      --border:    rgba(255,255,255,0.10);
+      --nat:       #3987e5;
+      --bici:      #d95926;
+      --carrera:   #199e70;
+      --track:     #2c2c2a;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --plane:     #0d0d0d;
+    --surface:   #1a1a19;
+    --ink:       #ffffff;
+    --ink-2:     #c3c2b7;
+    --ink-muted: #898781;
+    --line:      #2c2c2a;
+    --border:    rgba(255,255,255,0.10);
+    --nat:       #3987e5;
+    --bici:      #d95926;
+    --carrera:   #199e70;
+    --track:     #2c2c2a;
+  }
+
+  body {
+    background: var(--plane);
+    color: var(--ink);
+    font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 20px 16px 64px;
+  }
+  .wrap { max-width: 940px; margin: 0 auto; }
+
+  .stale {
+    background: var(--warning); color: #0b0b0b;
+    border-radius: 8px; padding: 10px 14px; margin-bottom: 18px;
+    font-size: 14px; font-weight: 600;
+  }
+
+  header { margin-bottom: 22px; }
+  .eyebrow { color: var(--ink-muted); font-size: 13px; text-transform: uppercase; letter-spacing: .06em; }
+  h1 { font-size: 21px; margin: 4px 0 16px; font-weight: 650; letter-spacing: -0.01em; }
+
+  .countdown { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .countdown .n { font-size: 60px; font-weight: 700; line-height: 1; letter-spacing: -0.03em; }
+  .countdown .lbl { color: var(--ink-2); font-size: 15px; }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 18px 20px; margin-bottom: 16px;
+  }
+  h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .07em;
+       color: var(--ink-muted); margin: 0 0 14px; font-weight: 650; }
+
+  .verdict { border-left: 4px solid var(--nat); }
+  .verdict .today { font-size: 26px; font-weight: 650; letter-spacing: -0.01em; margin-bottom: 10px; }
+  .verdict .why { color: var(--ink-2); font-size: 15px; }
+  .verdict .why p { margin: 0 0 8px; }
+  .verdict .why p:last-child { margin-bottom: 0; }
+
+  .gap-row { margin-bottom: 18px; }
+  .gap-row:last-child { margin-bottom: 0; }
+  .gap-head { display: flex; justify-content: space-between; align-items: baseline;
+              gap: 10px; margin-bottom: 6px; font-size: 14px; }
+  .gap-name { font-weight: 600; display: inline-flex; align-items: center; gap: 7px; }
+  .gap-name .dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+  .gap-val { color: var(--ink-2); font-variant-numeric: tabular-nums; }
+  .track { background: var(--track); border-radius: 4px; height: 10px; overflow: hidden; }
+  .fill { height: 100%; border-radius: 4px; }
+  .gap-note { font-size: 13px; color: var(--ink-muted); margin-top: 5px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th { text-align: left; font-size: 12px; text-transform: uppercase; letter-spacing: .05em;
+       color: var(--ink-muted); font-weight: 650; padding: 0 8px 8px 0; border-bottom: 1px solid var(--line); }
+  td { padding: 9px 8px 9px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  .dim { color: var(--ink-muted); }
+  .pend { color: var(--ink-muted); font-style: italic; }
+
+  .ev { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; }
+  .ev-item { border: 1px solid var(--border); border-radius: 9px; padding: 12px 14px; }
+  .ev-k { font-size: 12px; color: var(--ink-muted); text-transform: uppercase; letter-spacing: .05em; }
+  .ev-v { font-size: 19px; font-weight: 650; margin: 3px 0; }
+  .ev-n { font-size: 13px; color: var(--ink-2); }
+
+  .flag { display: inline-flex; align-items: center; gap: 6px; font-weight: 650; font-size: 13px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+
+  .note { font-size: 13.5px; color: var(--ink-2); }
+  .note strong { color: var(--ink); }
+  footer { color: var(--ink-muted); font-size: 12.5px; text-align: center; margin-top: 26px; }
+
+  @media (max-width: 560px) {
+    body { padding: 14px 12px 48px; }
+    .countdown .n { font-size: 48px; }
+    .verdict .today { font-size: 21px; }
+    .card { padding: 15px 16px; }
+  }
+</style>
+
+<div class="wrap">
+
+  <div class="stale">
+    ⚠ Datos horneados en la construcción de esta página — 17 ago 2026. No hay
+    conexión automática a Garmin todavía. Si la fecha de arriba no es la de hoy,
+    <strong>lo que ves está caducado</strong>.
+  </div>
+
+  <header>
+    <div class="eyebrow">IRONMAN 70.3 Cartagena · domingo 29 nov 2026</div>
+    <div class="countdown">
+      <span class="n">104</span>
+      <span class="lbl">días a la carrera<br>15 semanas exactas · Semana 1 de 15 · Fase: Reactivación</span>
+    </div>
+  </header>
+
+  <!-- ══ EL VEREDICTO — va primero, todo lo demás es evidencia ══ -->
+  <div class="card verdict">
+    <h2>Hoy · lunes 17 de agosto</h2>
+    <div class="today">Natación, 35 min — suave y técnica</div>
+    <div class="why">
+      <p>Semana 1 desde base cero. El trabajo de esta semana es <strong>volver a
+      moverse</strong>, no entrenar. Series cortas con descanso amplio, sin
+      cronómetro agresivo.</p>
+      <p><strong>Cero intensidad esta semana</strong>, sin excepciones. Si no
+      puedes decir una frase entera, vas demasiado rápido.</p>
+      <p class="dim">Sin chequeo de recuperación: hacen falta ~14 días de datos
+      Garmin para tener línea base. Hoy no hay contra qué comparar, así que no
+      hay veredicto de recuperación que dar.</p>
+    </div>
+  </div>
+
+  <!-- ══ LA BRECHA — el panel que ninguna app del móvil puede darte ══ -->
+  <div class="card">
+    <h2>La brecha · sesión más larga contra distancia de carrera</h2>
+
+    <div class="gap-row">
+      <div class="gap-head">
+        <span class="gap-name"><span class="dot" style="background:var(--nat)"></span>Natación</span>
+        <span class="gap-val">0 m de 1.900 m — falta el 100 %</span>
+      </div>
+      <div class="track"><div class="fill" style="width:0%; background:var(--nat)"></div></div>
+      <div class="gap-note">Sin neopreno el día de la carrera: el agua está a ~28 °C.</div>
+    </div>
+
+    <div class="gap-row">
+      <div class="gap-head">
+        <span class="gap-name"><span class="dot" style="background:var(--bici)"></span>Bici</span>
+        <span class="gap-val">0 km de 90 km — falta el 100 %</span>
+      </div>
+      <div class="track"><div class="fill" style="width:0%; background:var(--bici)"></div></div>
+      <div class="gap-note">~50 % del tiempo de carrera. El mayor retorno por hora invertida.</div>
+    </div>
+
+    <div class="gap-row">
+      <div class="gap-head">
+        <span class="gap-name"><span class="dot" style="background:var(--carrera)"></span>Carrera a pie</span>
+        <span class="gap-val">0 km de 21,1 km — falta el 100 %</span>
+      </div>
+      <div class="track"><div class="fill" style="width:0%; background:var(--carrera)"></div></div>
+      <div class="gap-note">Tu disciplina más floja, y la que decide el resultado. Progresión más lenta a propósito.</div>
+    </div>
+  </div>
+
+  <!-- ══ ESTA SEMANA — planificado vs real ══ -->
+  <div class="card">
+    <h2>Semana 1 · 17–23 ago · objetivo 4,0 h</h2>
+    <table>
+      <thead>
+        <tr><th>Día</th><th>Planificado</th><th>Real</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Lun 17</td><td>Natación 35′</td><td class="pend">pendiente</td></tr>
+        <tr><td>Mar 18</td><td>Carrera 25′ <span class="dim">(3′ corre / 1′ camina ×6)</span></td><td class="pend">pendiente</td></tr>
+        <tr><td>Mié 19</td><td>Rodillo 40′</td><td class="pend">pendiente</td></tr>
+        <tr><td>Jue 20</td><td>Fuerza 40′</td><td class="pend">pendiente</td></tr>
+        <tr><td>Vie 21</td><td class="dim">Descanso <span class="dim">(o natación 30′ opcional)</span></td><td class="pend">—</td></tr>
+        <tr><td>Sáb 22</td><td>Bici ruta 60′</td><td class="pend">pendiente</td></tr>
+        <tr><td>Dom 23</td><td>Carrera 30′ <span class="dim">(4′ corre / 1′ camina ×6)</span></td><td class="pend">pendiente</td></tr>
+      </tbody>
+    </table>
+    <p class="note" style="margin:14px 0 0">
+      <strong>Consistencia: 0 / 6 sesiones.</strong> Esta es la cifra que decide
+      noviembre. El intento anterior no falló por táctica ni por material —
+      falló por no entrenar.
+    </p>
+  </div>
+
+  <!-- ══ EVIDENCIA — demotada, debajo del veredicto ══ -->
+  <div class="card">
+    <h2>Evidencia</h2>
+    <div class="ev">
+      <div class="ev-item">
+        <div class="ev-k">FC en reposo</div>
+        <div class="ev-v">—</div>
+        <div class="ev-n"><span class="flag"><span class="dot" style="background:var(--warning)"></span>Sin línea base</span><br>0 de ~14 días necesarios</div>
+      </div>
+      <div class="ev-item">
+        <div class="ev-k">HRV</div>
+        <div class="ev-v">—</div>
+        <div class="ev-n"><span class="flag"><span class="dot" style="background:var(--warning)"></span>Sin línea base</span><br>Se juzga por tendencia, nunca por una mañana</div>
+      </div>
+      <div class="ev-item">
+        <div class="ev-k">Carga 7 días</div>
+        <div class="ev-v">0 h</div>
+        <div class="ev-n">Base cero al 17 ago</div>
+      </div>
+      <div class="ev-item">
+        <div class="ev-k">ACWR</div>
+        <div class="ev-v">n/a</div>
+        <div class="ev-n">No significa nada hasta ~la semana 6: la ventana crónica está llena de ceros</div>
+      </div>
+      <div class="ev-item">
+        <div class="ev-k">Zonas</div>
+        <div class="ev-v">Sin medir</div>
+        <div class="ev-n"><span class="flag"><span class="dot" style="background:var(--critical)"></span>Calidad bloqueada</span><br>Test de campo: semana 3</div>
+      </div>
+      <div class="ev-item">
+        <div class="ev-k">Potencia / FTP</div>
+        <div class="ev-v">No existe</div>
+        <div class="ev-n">Sin potenciómetro. La bici va en tiempo + RPE, nunca en vatios</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ EL RAZONAMIENTO ══ -->
+  <div class="card">
+    <h2>El razonamiento detrás de la llamada actual</h2>
+    <p class="note"><strong>El 6:30 exige correr a ~7:24 /km</strong> los 21,1 km,
+    a 30 °C con 80 % de humedad, tras casi 4 h de esfuerzo. Eso requiere ser capaz
+    de un medio maratón en fresco y en frío de ~2:05–2:15. Es <strong>agresivo pero
+    no absurdo</strong> — está en el borde.</p>
+    <p class="note">Lo que decide si es alcanzable es tu capacidad real corriendo,
+    hoy <strong>desconocida</strong>. Banda realista si el bloque se cumple entero:
+    <strong>6:30 – 7:15</strong>, con el 6:30 en el extremo optimista.</p>
+    <p class="note"><strong>Punto de control: el test de campo de la semana 3</strong>
+    (31 ago – 6 sep). A ~6:00 /km o mejor, el 6:30 sigue en pie. Peor que eso, se
+    recalibra el objetivo con el número delante — no se disimula.</p>
+    <p class="note dim">Las primeras 3 semanas son reactivación, no carga. El
+    sistema cardiovascular se adapta en semanas; tendones, fascia y hueso tardan
+    meses. La lesión típica del que vuelve de cero llega en la semana 4–6 por lo
+    que hizo en la 1–2.</p>
+  </div>
+
+  <footer>
+    Generado el 17 ago 2026 · Contenido horneado en la página, no en vivo ·
+    Regenerar tras cada revisión semanal
+  </footer>
+
+</div>
