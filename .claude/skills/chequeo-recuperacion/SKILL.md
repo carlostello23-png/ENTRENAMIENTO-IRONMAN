@@ -48,7 +48,7 @@ fuera de rango es ruido.
 | Todo dentro de banda | **Entrena lo planificado.** Una línea y ya. |
 | **Un** marcador fuera | Entrena lo planificado. Se menciona, no se cambia nada. |
 | **Dos o más** convergen (FC reposo alta + HRV baja + sueño malo + sensación mala) | **Se recorta o se descansa.** Con los números delante. |
-| Dolor articular o tendinoso | **Se corta la carrera a pie**, no todo. Se nada y se pedalea igual. |
+| Dolor articular o tendinoso | **Se corta la carrera a pie**, no todo. Se nada y se pedalea igual. Semáforo completo en `salud/protocolos/dolor-sin-aines.md` |
 | Síntomas de enfermedad | No se entrena. Sin discusión. |
 
 **Tendencia, no una mañana.** Especialmente el HRV: tanto subidas como bajadas
@@ -56,6 +56,10 @@ se han asociado a adaptación negativa (Plews et al.). Tres días de deriva dice
 algo; un martes no dice nada.
 
 ## Formato de salida
+
+**El atleta pidió chequeo diario** *(17 ago 2026)*. Se ejecuta todos los días —
+pero **chequeo diario no significa parrafada diaria**. La regla de señal sobre
+ruido sigue vigente y es lo que hace que el chequeo siga leyéndose en noviembre.
 
 **Día normal = una línea.** La longitud sigue a lo que hay que decir.
 
@@ -83,3 +87,5 @@ algo; un martes no dice nada.
   toma en serio antes que en las otras dos.
 - **Pulso óptico de muñeca.** Fiable en reposo y en continuo. Si un dato de
   sesión parece imposible, probablemente lo sea — se dice, no se interpreta.
+- **⚠️ Alérgico a los AINEs.** Nunca sugerir un antiinflamatorio ni ningún otro
+  fármaco, en ningún contexto. Ante molestia, la única palanca es la carga.

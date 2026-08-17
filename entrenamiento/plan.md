@@ -185,19 +185,39 @@ con datos reales de Garmin.
    6:30 es alcanzable. Se resuelve en el test de la semana 3.
 2. **Aclimatación al calor.** Entrenar a 14 °C y competir a 30 °C con humedad
    alta. Sin protocolo, el ritmo de carrera se cae aunque la forma sea buena.
-3. **Experiencia en aguas abiertas — DESCONOCIDA.** Nadar rápido en piscina no
-   es lo mismo que una salida en masa con oleaje y sin línea negra. Si no hay
-   experiencia, hay que buscarla antes de noviembre.
-4. **Sin neopreno.** El agua de Cartagena está muy por encima del límite para
+3. **Sin neopreno.** El agua de Cartagena está muy por encima del límite para
    usarlo. Nadar sin neopreno es más lento y exige más del tren superior. Hay
    que entrenar así.
-5. **Nutrición en carrera — sin definir.** ~4 h de esfuerzo con calor extremo.
+4. **Nutrición en carrera — sin definir.** ~4 h de esfuerzo con calor extremo.
    El plan de hidratación y sales se ensaya desde la fase 2, nunca se estrena el
    día de la carrera.
-6. **Tipo de bici — DESCONOCIDO.** Una bici de ruta y una MTB dan medias muy
-   distintas sobre los mismos 90 km. Afecta directo al presupuesto de 3:10.
-7. **Historial de lesiones, condiciones crónicas, alergias, medicación —
+5. 🔴 **La inscripción no está hecha** *(al 17 ago 2026)*. Es lo más urgente de
+   todo el proyecto: hoy se está entrenando para una carrera sin plaza.
+6. **Tiempo y parciales del 70.3 que ya completó — DESCONOCIDOS.** Es el dato
+   que más ayudaría a calibrar el 6:30, por encima del test de campo. Un tiempo
+   real de 70.3, aunque saliera mal, es una referencia que ningún test da.
+7. **Historial de lesiones, otras condiciones crónicas y medicación —
    DESCONOCIDOS.**
+
+### Resuelto el 17 ago 2026
+
+- ✅ **Aguas abiertas: sí, varias veces**, incluida una salida de 70.3. Deja de
+  ser brecha. No hay que gastar semanas en sighting ni salidas en masa.
+- ✅ **Bici: Trek Émonda SL, carbono, Shimano 105.** El parcial de 3:10 pasa a
+  ser cuestión de motor, no de material — con esa bici, 28,4 km/h en 90 km
+  llanos es perfectamente alcanzable. *Matiz:* la Émonda es bici de escalador,
+  no aerodinámica. En un llano rápido la **posición** pesa más que el peso, así
+  que **si no lleva acoples hay minutos ahí por poco dinero** — instalados
+  pronto y entrenados, nunca estrenados el día de la carrera.
+- ⚠️ **Alergia a los AINEs** — elevada a regla de seguridad en `CLAUDE.md`.
+  **Endurece el límite de progresión de la carrera a pie**: sin la opción de
+  medicarse, una molestia mal gestionada va directa a semana perdida, y aquí no
+  hay semanas de sobra.
+- ⚠️ **87 kg, 35 años.** Dos efectos reales, ambos sobre la carrera a pie: la
+  fuerza de impacto escala con la masa, y más masa produce más calor con peor
+  disipación — justo lo que castiga Cartagena. **Sube la prioridad del protocolo
+  de calor y del límite del 10 %.** *(Sin la talla no se interpreta como
+  composición corporal ni se prescribe pérdida de peso.)*
 
 ---
 

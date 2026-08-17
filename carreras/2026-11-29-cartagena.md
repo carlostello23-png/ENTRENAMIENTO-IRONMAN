@@ -89,13 +89,37 @@ se mantiene como objetivo o se recalibra.
 - **Hielo en gorra, nuca y bajo el tri-suit** en cada avituallamiento del medio
   maratón. Marginal en frío, enorme en Cartagena.
 
+## ⚠️ Salud — información médica obligatoria
+
+**Alergia a los AINEs.** Ver `salud/protocolos/dolor-sin-aines.md`.
+
+- [ ] **Declararla en la información médica de la inscripción**
+- [ ] Llevarla en pulsera médica o escrita en el dorsal si el evento lo permite
+- [ ] Que alguien del entorno que viaje a Cartagena lo sepa
+- [ ] **No aceptar analgésicos de nadie en carrera** — ni voluntarios, ni otros
+      competidores, ni puestos de avituallamiento
+- [ ] Preguntar a su médico, **antes de noviembre**, qué analgésico sí le está
+      autorizado y si hay que llevar medicación de rescate en la bolsa de
+      transición
+
+En una carpa médica, con 30 °C y mucha gente, esto importa de verdad.
+
 ## Logística — pendiente
 
-- [ ] Inscripción — **¿está hecha?** DESCONOCIDO
+- [ ] 🔴 **INSCRIPCIÓN — NO ESTÁ HECHA** *(confirmado el 17 ago 2026)*.
+      **Es lo más urgente de toda la lista.** Un IRONMAN 70.3 puede agotar
+      plazas, y la décima edición de una sede popular es justo la que se llena.
+      Ahora mismo estás entrenando para una carrera en la que **no tienes
+      sitio**. Resolver esta semana.
 - [ ] Vuelos y alojamiento
 - [ ] **Llegar 3–5 días antes** si es posible (aclimatación gratis)
-- [ ] Transporte de la bici a Cartagena
-- [ ] Revisión mecánica antes de viajar
+- [ ] Transporte de la **Trek Émonda** a Cartagena (maleta rígida o servicio del
+      evento)
+- [ ] Revisión mecánica del 105 antes de viajar
+- [ ] **Decidir si se ponen acoples.** La Émonda es una bici de escalador; en 90
+      km llanos la posición vale más que el peso. Si se ponen, **se ponen pronto
+      y se entrena con ellos** — nunca se estrena una posición nueva el día de
+      la carrera
 - [ ] Descargar la guía oficial del atleta en cuanto salga y **verificar todo lo
       marcado ⚠️ en este archivo**
 

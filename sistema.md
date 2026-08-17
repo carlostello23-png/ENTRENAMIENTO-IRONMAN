@@ -23,7 +23,7 @@ va corrigiendo.
 | **`entrenamiento/restricciones.md`** | Lo que la realidad permite. **Gana sobre `plan.md`** | Al planificar |
 | **`entrenamiento/YYYY-MM-DD-semana.md`** | Una semana concreta, día a día | Cada semana |
 | **`revisiones/`** | Revisiones semanales. **Solo se añade, nunca se sobrescribe** | Al cerrar semana |
-| **`salud/protocolos/`** | Documentos permanentes: test de campo, aclimatación al calor | Cuando toque |
+| **`salud/protocolos/`** | Documentos permanentes: test de campo, aclimatación al calor, **molestias sin AINEs** | Cuando toque |
 | **`salud/`** | Banderas fechadas, solo en días que merecen bandera | Cuando pase algo |
 | **`carreras/`** | Investigación de la carrera y plan de parciales | Fase 3 y logística |
 | **`dashboard/`** | La superficie de decisión | A diario |
@@ -57,6 +57,9 @@ skill** — si no, se actualiza en seis sitios y se olvidan dos.
 
 ## Las restricciones que atraviesan todo
 
+0. **⚠️ ALERGIA A LOS AINEs** → nunca se sugiere un antiinflamatorio ni ningún
+   fármaco. Las molestias se gestionan con carga. **Va antes que todo lo demás**
+   y está en `CLAUDE.md` por encima de las reglas duras.
 1. **Sin potenciómetro** → no existen vatios ni FTP. La bici va en tiempo + RPE.
 2. **Sin banda pectoral** → pulso óptico. No fiable en series ni nadando.
 3. **Sin zonas medidas** → el trabajo de calidad está **bloqueado** hasta el
@@ -97,22 +100,32 @@ skill** — si no, se actualiza en seis sitios y se olvidan dos.
 
 Se dicen desconocidos, no se rellenan con números plausibles.
 
-- Edad, peso
-- Historial de lesiones, condiciones crónicas, alergias, medicación
-- Tipo de bici *(afecta directo al parcial de 3:10 en los 90 km)* y tipo de rodillo
+- 🔴 **La inscripción de Cartagena NO está hecha.** Lo más urgente del proyecto:
+  entrenando para una carrera sin plaza reservada.
+- **Tiempo y parciales del 70.3 que ya completó** — el dato más valioso que
+  falta. Un tiempo real de 70.3, aunque saliera mal, calibra el 6:30 mejor que
+  cualquier test.
+- **Talla** — sin ella los 87 kg no se pueden interpretar.
+- Historial de lesiones, otras condiciones crónicas, otras alergias, medicación
+- **Qué tipo de reacción provocan los AINEs** *(pregunta para su médico)*
+- Año del modelo de la Émonda; **si lleva acoples** *(minutos sobre la mesa en
+  90 km llanos)*; tipo de rodillo
 - Horarios de la piscina, franja de entrenamiento entre semana
 - Techo real de horas en fin de semana
-- Experiencia en aguas abiertas
-- Parciales del intento anterior
-- Si la inscripción está hecha
-- Si quiere chequeo diario o solo cuando algo se sale
+
+**Resueltos el 17 ago 2026:** edad (35), peso (87 kg), bici (Trek Émonda SL ·
+105), rodillo (sí), aguas abiertas (sí, varias veces), chequeo diario (sí),
+alergia a AINEs (registrada como regla de seguridad).
 
 ## Lo siguiente
 
-1. Verificar que las siete skills cargan (`/nombre-skill`)
-2. Empezar a llevar el Garmin también para dormir — el reloj de la línea base
+1. 🔴 **Hacer la inscripción de Cartagena.** Esta semana.
+2. ✅ *Hecho — las siete skills cargan correctamente (verificado el 17 ago 2026).*
+3. Llevar el Garmin también para dormir — el reloj de los 14 días de línea base
    corre desde ya
-3. Cerrar los huecos de salud antes de escribir cualquier regla automática
-4. Automatización (chequeo diario + revisión semanal en `cron`) — **aún no
-   construida**
-5. Conexión con Garmin Connect — **aún no construida**
+4. Recuperar el tiempo y los parciales del 70.3 anterior
+5. Cerrar los huecos de salud que quedan antes de escribir reglas automáticas
+6. **Automatización** (chequeo diario + revisión semanal en `cron`) — **aún no
+   construida.** El atleta pidió chequeo diario, así que esto sube de prioridad.
+7. **Conexión con Garmin Connect** — **aún no construida.** Hoy los datos entran
+   a mano y el dashboard se escribe a mano.

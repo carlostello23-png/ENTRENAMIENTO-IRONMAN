@@ -57,27 +57,26 @@ el día de la carrera se lleva una sorpresa desagradable.
 **Todo el entrenamiento se hace sin neopreno.** Si aparece algo con neopreno en
 los datos, señalarlo.
 
-### 2. Aguas abiertas — hueco abierto
+### 2. Aguas abiertas — resuelto, no es una brecha
 
-⚠️ **La experiencia en aguas abiertas es DESCONOCIDA.**
+✅ **Tiene experiencia en aguas abiertas, varias veces**, incluida una salida de
+70.3 completa *(confirmado el 17 ago 2026)*.
 
-Nadar rápido en piscina **no es lo mismo** que una salida en masa, con oleaje,
-sin línea negra en el fondo y teniendo que levantar la cabeza para orientarse.
-Nadadores fuertes de piscina se han hundido en aguas abiertas por esto.
+Eso significa que **no hay que gastar semanas enseñando sighting ni salidas en
+masa**. Ya sabe orientarse sin línea negra, ya ha nadado con contacto y agua
+revuelta. Un par de recordatorios en la fase específica y basta.
 
-Si no hay experiencia, **hay que conseguirla antes de noviembre** y hay que
-practicar específicamente:
-- **Sighting** (levantar la cabeza para orientarse) — cuesta ritmo, hay que
-  entrenarlo
-- Nadar en línea recta sin referencias del fondo
-- Contacto físico y agua revuelta de una salida en grupo
+**No tratar esto como un hueco.** Es tiempo que se puede invertir donde hace
+falta de verdad: correr y pedalear.
 
 ## Prioridades de las sesiones
 
-1. **Técnica y eficiencia** por encima de volumen. Es lo que transfiere.
-2. **Resistencia continua** — 1,9 km sin parar, no series de 100 con descanso.
-3. **Sighting** en cuanto entre la fase específica.
-4. **No maximizar.** El tiempo que sobra vale más en la bici o corriendo.
+1. **Resistencia continua** — 1,9 km sin parar, no series de 100 con descanso.
+   Es lo que replica la carrera.
+2. **Técnica y eficiencia** — mantener lo que ya tiene.
+3. **Nadar sin neopreno siempre**, para acostumbrar el tren superior.
+4. **No maximizar.** Es su punto fuerte y el segmento más corto. El tiempo que
+   sobre vale mucho más en la bici o corriendo.
 
 ## Formato de salida
 

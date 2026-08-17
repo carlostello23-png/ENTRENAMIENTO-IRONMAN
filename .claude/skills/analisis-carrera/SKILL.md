@@ -61,6 +61,24 @@ aparece **cualquiera** de estas, va delante de todo lo demás en la respuesta:
 carrera, no el de bici ni el de natación.** Dos semanas perdidas por una
 tendinopatía cuestan más que todo lo que se gane apretando ahora.
 
+**⚠️ Es alérgico a los AINEs.** Nunca sugerir un antiinflamatorio, ni oral ni en
+gel, ni "algo antiinflamatorio" en genérico, ni ningún fármaco alternativo. La
+gestión es de carga: `salud/protocolos/dolor-sin-aines.md`.
+
+Dos consecuencias reales para este análisis:
+
+- **No hay parche.** Cualquier molestia que se ignore va directa a semana
+  perdida, y en 15 semanas desde cero no hay semanas de sobra. El umbral para
+  recomendar recorte es **más bajo** que con un atleta que puede medicarse.
+- **El dolor es una señal sin enmascarar, y eso es una ventaja.** Un atleta
+  medicado corre sobre una lesión sin enterarse; él no. Su relato de dolor se
+  trata como el dato fiable que es.
+
+**A 87 kg** la fuerza de impacto es mayor que en un corredor ligero: el mismo
+kilometraje cuesta más al tejido. Es otra razón para respetar el +10 % semanal
+aunque se sienta fuerte. *(Sin la talla no se especula con composición corporal
+ni se prescribe pérdida de peso.)*
+
 ## Formato de salida
 
 - **Sesión normal, sin nada que destacar: 1–2 líneas.**

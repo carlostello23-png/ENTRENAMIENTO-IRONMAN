@@ -59,9 +59,16 @@
 
   .stale {
     background: var(--warning); color: #0b0b0b;
-    border-radius: 8px; padding: 10px 14px; margin-bottom: 18px;
+    border-radius: 8px; padding: 10px 14px; margin-bottom: 10px;
     font-size: 14px; font-weight: 600;
   }
+  .alerta, .medica {
+    border-radius: 8px; padding: 11px 14px; margin-bottom: 10px;
+    font-size: 14px; border: 1px solid; background: var(--surface);
+  }
+  .alerta { border-color: var(--critical); }
+  .medica { border-color: var(--ink-muted); margin-bottom: 18px; }
+  .alerta strong, .medica strong { color: var(--ink); }
 
   header { margin-bottom: 22px; }
   .eyebrow { color: var(--ink-muted); font-size: 13px; text-transform: uppercase; letter-spacing: .06em; }
@@ -130,6 +137,19 @@
     ⚠ Datos horneados en la construcción de esta página — 17 ago 2026. No hay
     conexión automática a Garmin todavía. Si la fecha de arriba no es la de hoy,
     <strong>lo que ves está caducado</strong>.
+  </div>
+
+  <div class="alerta">
+    🔴 <strong>La inscripción de Cartagena no está hecha.</strong>
+    Estás entrenando para una carrera en la que no tienes plaza. Décima edición
+    de una sede popular — se puede agotar. Resolver esta semana.
+  </div>
+
+  <div class="medica">
+    ⚕ <strong>Alergia a los AINEs.</strong> Nada de ibuprofeno, naproxeno,
+    diclofenaco ni aspirina, tampoco en gel. Debe constar en la información
+    médica de la inscripción. Las molestias se gestionan con carga, no con
+    fármacos.
   </div>
 
   <header>
@@ -246,6 +266,16 @@
         <div class="ev-v">No existe</div>
         <div class="ev-n">Sin potenciómetro. La bici va en tiempo + RPE, nunca en vatios</div>
       </div>
+      <div class="ev-item">
+        <div class="ev-k">Bici</div>
+        <div class="ev-v">Émonda SL</div>
+        <div class="ev-n">Ruta, carbono, Shimano 105. El 3:10 es cuestión de motor, no de material</div>
+      </div>
+      <div class="ev-item">
+        <div class="ev-k">Aguas abiertas</div>
+        <div class="ev-v">Resuelto</div>
+        <div class="ev-n"><span class="flag"><span class="dot" style="background:var(--good)"></span>Sin brecha</span><br>Varias veces, incluido un 70.3 completo</div>
+      </div>
     </div>
   </div>
 
@@ -266,6 +296,11 @@
     sistema cardiovascular se adapta en semanas; tendones, fascia y hueso tardan
     meses. La lesión típica del que vuelve de cero llega en la semana 4–6 por lo
     que hizo en la 1–2.</p>
+    <p class="note dim">A 87 kg la fuerza de impacto al correr es mayor, y más
+    masa produce más calor con peor disipación — justo lo que castiga Cartagena.
+    Con la alergia a los AINEs no hay parche para tirar con una molestia. Las
+    tres cosas apuntan al mismo sitio: <strong>el límite del 10 % semanal en
+    carrera no se negocia</strong>, aunque te sientas fuerte.</p>
   </div>
 
   <footer>

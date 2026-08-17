@@ -82,6 +82,18 @@ pedalear o correr.
   disciplinas, **decirlo**: es exactamente el atajo que acaba en lesión y en
   bloque perdido.
 
-⚠️ **Historial de lesiones, condiciones crónicas y limitaciones físicas son
-DESCONOCIDOS.** No prescribir cargas altas ni ejercicios de riesgo hasta
-resolverlo.
+## Contexto que sube la importancia de esta sección
+
+- **87 kg y 35 años, volviendo a correr desde cero.** La carga de impacto escala
+  con la masa: la fuerza no es un extra aquí, es lo que hace que el tejido
+  tolere el kilometraje que viene. *(Sin la talla no se valora composición
+  corporal ni se prescribe pérdida de peso.)*
+- **⚠️ Alérgico a los AINEs.** Nunca sugerir un antiinflamatorio ni ningún
+  fármaco, tampoco para agujetas. Si aparece molestia, la respuesta es carga y
+  `salud/protocolos/dolor-sin-aines.md`. Sin parche químico disponible, **la
+  prevención estructural es la única palanca real** — y esta es la sesión donde
+  se construye.
+
+⚠️ **Sigue DESCONOCIDO:** historial de lesiones, otras condiciones crónicas,
+otras alergias y medicación habitual. **No prescribir cargas altas ni ejercicios
+de riesgo hasta resolverlo.**

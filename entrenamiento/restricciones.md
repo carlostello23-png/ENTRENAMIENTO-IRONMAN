@@ -46,9 +46,35 @@ La semana 15 termina el día de la carrera.
 | Rutas para correr | Disponible | — |
 | Rutas de ciclismo | **Solo fin de semana** | Restricción real, no preferencia |
 | **Rodillo** | Disponible | **Desbloquea la bici entre semana.** Es donde vive el volumen de bici de lunes a viernes y el protocolo de calor. |
+| **Bici** | Trek Émonda SL · Shimano 105 | Bici de ruta de carbono |
 
-**DESCONOCIDO:** tipo de bici, tipo de rodillo, horarios de la piscina, si algo
-de esto es estacional o poco fiable.
+**Bici: Trek Émonda SL, carbono, Shimano 105.** Bici de ruta de verdad — no
+había que asumir nada y resulta ser buena noticia para el parcial de bici. Con
+esa bici, **28,4 km/h de media en 90 km llanos es cuestión de motor, no de
+material.**
+
+Un matiz honesto: la Émonda es una **bici de escalador**, ligera y rígida, no
+una máquina aerodinámica. En un recorrido llano y rápido como Cartagena, la
+posición pesa más que el peso de la bici. **Si no lleva acoples, ahí hay minutos
+sobre la mesa por muy poco dinero** — pero cambian la posición y el manejo, así
+que se instalarían pronto y se entrenaría con ellos, nunca se estrenan el día de
+la carrera.
+
+**DESCONOCIDO:** año del modelo, si lleva acoples, tipo de rodillo, horarios de
+la piscina, si algo de esto es estacional o poco fiable.
+
+## 4b. Salud — restricción dura
+
+**⚠️ ALERGIA A LOS AINEs.** Nada de ibuprofeno, naproxeno, diclofenaco,
+aspirina ni ningún antiinflamatorio, tampoco en gel.
+
+**Lo que restringe del plan:** no existe la opción de "tirar con la molestia
+medicándose". Cualquier molestia se gestiona bajando carga y trasvasando a
+natación y bici. Ver `salud/protocolos/dolor-sin-aines.md`.
+
+**Esto endurece el límite de progresión de la carrera a pie, no lo relaja.**
+Combinado con 87 kg y base cero, la carrera es la disciplina donde este bloque
+se puede romper.
 
 ## 4. Equipo — lo que se puede y no se puede medir
 
@@ -127,11 +153,12 @@ cumple bate a un plan brillante que se abandona.
 
 ## Huecos abiertos
 
-- Tipo de bici y tipo de rodillo
+- **Talla** — sin ella, los 87 kg no se pueden interpretar
+- **Tiempo y parciales del 70.3 anterior** — el dato más valioso que falta
+- Año del modelo de la Émonda; si lleva acoples
+- Tipo de rodillo
 - Horarios reales de la piscina
 - Franja horaria de entrenamiento entre semana (mañana o noche)
 - Techo real de horas en fin de semana
-- Historial de lesiones, condiciones crónicas, alergias, medicación
-- Edad y peso
-- Experiencia en aguas abiertas
-- Parciales del intento anterior
+- Historial de lesiones, otras condiciones crónicas, otras alergias, medicación
+- Qué tipo de reacción provocan los AINEs *(pregunta para su médico)*
