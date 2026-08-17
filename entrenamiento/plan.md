@@ -13,7 +13,10 @@
 anterior. **La versión anterior de esta sección está SUPERSEDED** — estaba
 construida sobre supuestos y uno de ellos era falso. Ver §1b.)*
 
-### La línea de partida real
+### La línea de partida real — y es del MISMO recorrido
+
+**El 70.3 anterior fue el de Cartagena** *(confirmado el 17 ago 2026)*. Eso es
+enorme para la fiabilidad de todo lo que sigue:
 
 | Segmento | Tiempo anterior | Ritmo real |
 |---|---|---|
@@ -23,7 +26,22 @@ construida sobre supuestos y uno de ellos era falso. Ver §1b.)*
 | Suma de segmentos | **7:09** | |
 | Con transiciones *(est. ~10 min)* | **~7:19** | |
 
-**Para 6:30 hay que recortar 49 minutos.** Un 11 % del tiempo total.
+**Por qué importa tanto que sea el mismo recorrido:**
+
+- **Ese 8:04/km ya incluye 30 °C y 80 % de humedad.** No hay que traducir de un
+  clima a otro ni aplicar un factor de degradación inventado. **Es una
+  referencia directa**, y eso elimina la mayor fuente de incertidumbre que tenía
+  este plan.
+- **Ese 49:00 ya es en la Bahía de las Ánimas y sin neopreno.** Mismas
+  condiciones exactas.
+- **Ese 3:30 ya es en ese perfil llano.** Comparable de verdad.
+- **Y casi con seguridad tampoco estaba aclimatado al calor** — vive en Bogotá.
+  Así que la aclimatación es una ganancia **nueva**, encima de todo lo demás.
+- **Conoce el recorrido.** Vale poco en el reloj, pero quita nervios y errores.
+
+**Para 6:30 hay que recortar 49 minutos.** Un 11 % del tiempo total — y ahora
+sabemos que se recorta **contra su propio rendimiento en esas mismas
+condiciones**, no contra una estimación.
 
 ### De dónde salen esos 49 minutos
 
@@ -43,20 +61,32 @@ mucho". Recortar un 11 % sobre un resultado sin preparación no es lo mismo que
 recortar un 11 % sobre un rendimiento bien entrenado. Lo primero es corriente;
 lo segundo sería casi imposible.
 
-Y hay cuatro palancas que se suman, no una:
-1. **Entrenar de verdad 15 semanas** (la que faltó la vez anterior)
-2. **Bajar 4–6 kg** — vale minutos directos en la carrera a pie
-3. **Acoples en la bici** — minutos por poco dinero en 90 km llanos
-4. **Aclimatación al calor** — la que casi nadie hace
+Y hay cuatro palancas que se suman, no una — **ordenadas por lo que aportan de
+verdad**:
 
-**Banda realista revisada: 6:35 – 7:00**, con el **6:30 genuinamente en juego**
-si el bloque se cumple entero. *(La estimación anterior era 6:30–7:15; se
-revisa a mejor porque ahora se sabe que la línea de partida era un resultado sin
-entrenar, no un límite.)*
+| Palanca | Aporte estimado | Nota |
+|---|---|---|
+| **1. Entrenar de verdad 15 semanas** | **La mayor parte de los 49 min** | Es lo que faltó la vez anterior. Nada compite con esto |
+| **2. Aclimatación al calor** | Varios minutos en la carrera a pie | La vez anterior tampoco estaba aclimatado. **Ganancia nueva** |
+| **3. Acoples en la bici** | Unos minutos en 90 km llanos | Barato. Instalados antes de la semana 9 |
+| **4. Bajar ~3 kg** | **1–3 min** | Real, pero **la palanca más pequeña**. Ver corrección abajo |
+
+> ⚠️ **Corrección del 17 ago 2026.** Con la estatura ya conocida (1,76 m → IMC
+> 28,1) se recalculó el déficit fase por fase, y **la pérdida realista es ~2,5–3
+> kg, no 4–6 kg**: el déficit solo puede correr en 6 de las 15 semanas. Llega a
+> ~84 kg el día de la carrera, no a 81–83. **Vale 1–3 minutos, no más**, así que
+> el grueso del recorte lo tiene que poner el entrenamiento. Detalle en
+> `salud/protocolos/deficit-responsable.md`.
+
+**Banda realista: 6:35 – 7:00**, con el **6:30 genuinamente en juego** si el
+bloque se cumple entero. *(Revisada a mejor desde 6:30–7:15 al conocerse que la
+línea de partida era un resultado sin entrenar. Se mantiene esa banda: la
+corrección a la baja del peso se compensa con la mayor fiabilidad de tener
+parciales del mismo recorrido.)*
 
 **Sigue habiendo un crux, y es el mismo:** correr a **7:18 /km** al final, con
-30 °C y 80 % de humedad. Es 46 s/km más rápido que la vez anterior. Es la parte
-más dura del plan y la de más riesgo.
+30 °C y 80 % de humedad. Es 46 s/km más rápido que la vez anterior **en las
+mismas condiciones**. Es la parte más dura del plan y la de más riesgo.
 
 **El punto de control no cambia:**
 

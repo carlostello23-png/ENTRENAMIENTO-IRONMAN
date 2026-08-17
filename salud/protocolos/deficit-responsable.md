@@ -72,23 +72,85 @@ sube a lo largo del bloque.
 - 🔴 **El día de la sesión larga se come.** No se hace la tirada larga ni la
   salida larga de bici en déficit profundo.
 
-## El ritmo — el número que importa
+## Los números concretos
+
+*(Calculados el 17 ago 2026 con estatura 1,76 m, 87 kg, 35 años.)*
+
+**Punto de partida: IMC 28,1** — sobrepeso, no obesidad. Hay margen real, pero
+no enorme.
+
+| Peso | IMC |
+|---|---|
+| **87 kg (hoy)** | **28,1** |
+| 84 kg | 27,1 |
+| 83 kg | 26,8 |
+| 80 kg | 25,8 |
+| 77,4 kg | 25,0 *(límite del rango "normal")* |
+
+### Gasto basal y objetivos por fase
+
+**Gasto basal (Mifflin-St Jeor): ~1.800 kcal/día.**
+
+> ⚠️ **Calculado con la fórmula masculina.** El sexo biológico es entrada
+> obligatoria de la ecuación y **el atleta no lo ha declarado**. Con la fórmula
+> femenina el basal sería ~1.634 kcal y todos los objetivos de abajo bajan ~165
+> kcal. **Confirmar antes de usar estos números en serio.**
+
+Gasto diario sin entrenar (basal × 1,35): **~2.400 kcal**. A eso se le suma el
+entrenamiento de cada fase:
+
+| Fase | Semanas | Entreno (kcal/día) | Gasto total | **Objetivo de ingesta** | Déficit | Ritmo |
+|---|---|---|---|---|---|---|
+| **Reactivación** | 1–2 | ~300 | ~2.700 | **~2.200** | 500 | ~0,5 kg/sem |
+| *Semana de test* | **3** | ~350 | ~2.750 | **~2.750** | **0** | — |
+| **Base** | 4–7 | ~500 | ~2.900 | **~2.500** | 400 | ~0,4 kg/sem |
+| *Semana de test* | **8** | ~550 | ~2.950 | **~2.950** | **0** | — |
+| **Específico** | 9–13 | ~750 | ~3.150 | **~3.150** | **0** | — |
+| **Taper** | 14–15 | ~400 | ~2.800 | **~2.800–2.900** | 0 | — |
+
+**Proteína, en todas las fases: 140–175 g/día** (1,6–2,0 g/kg). No se recorta.
+
+### Lo que se puede esperar de verdad
+
+> ⚠️ **CORRECCIÓN del 17 ago 2026.** La versión anterior de este documento decía
+> **"4–6 kg, llegando a 81–83 kg"**. Queda **`SUPERSEDED`**: era optimista y no
+> salía de la propia tabla de fases. Al contar solo las semanas que de verdad
+> llevan déficit, el número real es más bajo.
+
+**El déficit solo corre en 6 de las 15 semanas** — semanas 1, 2, 4, 5, 6 y 7. Las
+demás son de test, de pico de carga o de taper, y en todas ellas el déficit está
+prohibido por buenas razones.
+
+| | |
+|---|---|
+| Semanas 1–2 a 0,5 kg | **1,0 kg** |
+| Semanas 4–7 a 0,4 kg | **1,6 kg** |
+| **Pérdida real de grasa esperada** | **~2,5–3 kg** |
+| **Peso el día de la carrera** | **~84 kg** (IMC 27,1) |
+
+**Lo que la báscula va a mostrar es más que eso** — probablemente 3,5–4 kg. Las
+primeras dos semanas siempre incluyen agua y glucógeno, que no es grasa y vuelve
+en cuanto se come normal. **No confundir el número de la báscula con grasa
+perdida.**
+
+**Lo que eso vale en la carrera:** a razón de 1–2 s/km por kilo, unos 3 kg son
+**1–3 minutos** en el medio maratón. Es real y va gratis, pero **es una parte
+pequeña de los 49 minutos que hay que recortar.** El grueso lo tiene que poner el
+entrenamiento, no la báscula.
+
+**Lo que NO se va a hacer:** bajar 10–12 kg en 15 semanas mientras se construye
+desde cero para un 70.3. Se puede intentar, pero la consecuencia más probable es
+una lesión corriendo o un bloque arruinado — y con la alergia a los AINEs, una
+lesión aquí cuesta más de lo normal. **Bajar a IMC 25 (77 kg) es un objetivo
+perfectamente razonable para 2027, no para el 29 de noviembre.**
+
+### El ritmo — reglas
 
 **Objetivo: 0,3–0,5 kg por semana. Techo absoluto: 0,7 kg/semana.**
 
 - Más rápido que eso y lo que se pierde ya no es solo grasa.
 - **Si el peso baja más rápido de lo pautado, eso es un problema, no un éxito.**
   Se dice claramente, no se celebra.
-
-**Lo que se puede esperar de forma realista:** con déficit periodizado como
-arriba, **~4–6 kg en las 12 semanas útiles** (semanas 1–13, parando en el
-taper). De 87 kg a ~81–83 kg el día de la carrera. Eso ya vale minutos en el
-medio maratón.
-
-**Lo que NO se va a hacer:** una bajada agresiva de 12 kg en 15 semanas mientras
-se construye desde cero para un 70.3. Se puede intentar, pero la consecuencia
-más probable es una lesión de carrera o un bloque de calidad arruinado — y con
-la alergia a los AINEs, una lesión aquí cuesta más de lo normal.
 
 ## Proteína — lo que no se recorta
 
@@ -118,38 +180,17 @@ de noviembre.
 
 ---
 
-## Lo que hace falta para poner números de verdad
+## Lo que sigue faltando
 
-🔴 **Falta la ESTATURA en centímetros.**
+✅ **Estatura: 1,76 m** *(aportada el 17 ago 2026)*. Desbloqueado.
 
-*(Corrección del 17 ago 2026: en la primera versión de este documento se dijo
-que sin la estatura "no hay gasto basal estimable". **Estaba exagerado** y se
-corrige aquí. La versión precisa está abajo.)*
+🔴 **Sexo biológico.** Entrada obligatoria de Mifflin-St Jeor — las constantes
+cambian. Los objetivos de arriba están calculados con la fórmula masculina; con
+la femenina bajan ~165 kcal. **No se asume: hay que preguntarlo.**
 
-**Para qué NO es tan crítica.** El gasto basal apenas se mueve con la estatura.
-Con Mifflin-St Jeor a 87 kg y 35 años: ~1.730 kcal a 1,65 m, ~1.795 a 1,75 m,
-~1.855 a 1,85 m. **125 kcal en 20 cm.** Poco.
-
-**Para qué SÍ es decisiva — interpretar los 87 kg.** Aquí lo cambia todo:
-
-| Estatura | IMC a 87 kg | Margen para bajar |
-|---|---|---|
-| 1,65 m | 32,0 | Muy amplio (12–15 kg) |
-| 1,75 m | 28,4 | Claro |
-| 1,85 m | 25,4 | Pequeño (4–5 kg) |
-| 1,90 m | 24,1 | Ya en rango normal |
-
-**Sin este dato no se puede decidir cuánto es razonable bajar**, ni cuánta parte
-de la brecha hacia el 6:30 es composición corporal y cuánta es forma física.
-Son dos problemas distintos con soluciones distintas, y confundirlos lleva a
-pautar un déficit demasiado grande o demasiado pequeño.
-
-*(Límite del IMC: no distingue músculo de grasa, así que en un atleta muy
-musculado sería mal indicador. Aquí sí informa, porque el propio atleta declara
-exceso de grasa.)*
-
-**También hace falta para la ecuación:** el sexo biológico es una entrada
-obligatoria de Mifflin-St Jeor (las constantes cambian). No se asume.
+*(Límite del IMC, que conviene no olvidar: no distingue músculo de grasa. En un
+atleta muy musculado sería mal indicador. Aquí informa razonablemente bien
+porque el propio atleta declara exceso de grasa.)*
 
 Ayudaría, sin ser imprescindible:
 - Estimación de % de grasa corporal, si tiene acceso a una medición

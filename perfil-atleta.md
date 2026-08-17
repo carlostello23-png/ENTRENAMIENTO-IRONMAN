@@ -20,15 +20,16 @@
 - **Bajar de peso es un objetivo declarado** *(17 ago 2026)*. Se aborda con
   déficit **periodizado con el plan**, no contra él. Ver
   `salud/protocolos/deficit-responsable.md`.
-- 🔴 **ESTATURA: DESCONOCIDA.** *(Pedírsela como "estatura en cm", no como
-  "talla" — la palabra generó confusión el 17 ago 2026.)*
-  **Bloquea las skills de nutrición.** El motivo preciso: mueve poco el gasto
-  basal (~125 kcal entre 1,65 m y 1,85 m), pero **decide cómo se interpretan 87
-  kg** — IMC 32,0 a 1,65 m contra 24,1 a 1,90 m — y por tanto cuánto es
-  razonable bajar y cuánta parte de la brecha hacia el 6:30 es composición
-  corporal en vez de forma física.
-- **Sexo biológico: DESCONOCIDO.** Entrada obligatoria de la ecuación de gasto
-  basal (Mifflin-St Jeor). No se asume.
+- **Estatura: 1,76 m** *(aportada el 17 ago 2026)*
+- **IMC: 28,1** — sobrepeso, no obesidad. Margen real pero no enorme. IMC 25
+  serían 77,4 kg; el objetivo para el 29 de noviembre es **~84 kg (IMC 27,1)**.
+  Bajar a 77 kg es objetivo de 2027, no de este bloque.
+- **Gasto basal estimado: ~1.800 kcal/día** (Mifflin-St Jeor).
+  🔴 **Calculado con la fórmula masculina — el sexo biológico NO está declarado
+  y es entrada obligatoria de la ecuación.** Con la femenina serían ~1.634 kcal
+  y todos los objetivos calóricos bajan ~165 kcal. **Preguntar, no asumir.**
+- *(Nota de vocabulario: pedirle **"estatura en cm"**, nunca "talla" — se
+  entiende como S/M/L y generó confusión el 17 ago 2026.)*
 
 ## El objetivo
 
@@ -54,10 +55,17 @@
     medible de 49 minutos (~11 %) en vez de una aspiración. Y como fue un
     resultado **sin entrenar**, no marca un techo. Análisis completo en
     `entrenamiento/plan.md` §1.
-  - Edición, sede y año de aquel intento: **DESCONOCIDO.** Importa: **si fue en
-    Cartagena, ese 8:04/km ya incluye el calor y la humedad**, y entonces es una
-    referencia mucho más directa. Si fue en otro sitio con clima templado, el
-    ritmo de Cartagena será peor que ese.
+  - ✅ **SEDE: fue el MISMO IRONMAN 70.3 de Cartagena** *(confirmado el 17 ago
+    2026)*. Esto es lo más valioso del perfil después de los parciales:
+    - **Ese 8:04/km ya incluye 30 °C y 80 % de humedad.** No hay que traducir de
+      un clima a otro ni aplicar un factor inventado. **Referencia directa.**
+    - **Ese 49:00 ya es sin neopreno en la Bahía de las Ánimas.**
+    - **Ese 3:30 ya es en ese perfil llano.**
+    - **Y tampoco estaba aclimatado al calor** (vive en Bogotá), así que la
+      aclimatación es una ganancia **nueva** encima de todo lo demás.
+    - **Conoce el recorrido.**
+  - Año de aquel intento: **DESCONOCIDO** (serviría para buscar el resultado
+    oficial y tener parciales exactos en vez de aproximados)
   - Tiempo oficial exacto: **DESCONOCIDO** (los parciales son aproximados)
   - **Lectura:** el fallo anterior fue de **consistencia de entrenamiento**, no
     de talento ni de estrategia de carrera. Eso hace que la variable número uno
@@ -268,3 +276,18 @@ autorizado. Conviene tenerlo resuelto **antes** de noviembre.
     lo que de verdad decide es **cómo interpretar 87 kg**. Corregido en
     `CLAUDE.md` y en `deficit-responsable.md`.
   - **APRENDIDO:** pedir **"estatura en cm"**, nunca "talla".
+- **2026-08-17 — Quinta tanda. Estatura y sede de la carrera anterior.**
+  - **AÑADIDO: estatura 1,76 m** → **IMC 28,1** (sobrepeso, no obesidad) y gasto
+    basal ~1.800 kcal/día. Desbloquea los objetivos calóricos, que ya están
+    escritos por fase en `deficit-responsable.md`.
+  - **AÑADIDO: el 70.3 anterior fue el MISMO de Cartagena.** Cambia la
+    fiabilidad de todo el pronóstico: el 8:04/km ya incluye el calor y la
+    humedad, así que no hay que traducir climas. Y tampoco estaba aclimatado,
+    así que la aclimatación es ganancia nueva.
+  - **⚠️ CORRECCIÓN A LA BAJA de la pérdida de peso esperada: de 4–6 kg a
+    ~2,5–3 kg**, llegando a **~84 kg** en vez de 81–83. Lo anterior queda
+    `SUPERSEDED`. Motivo: al calcular fase por fase, el déficit solo puede
+    correr en **6 de las 15 semanas**. Vale **1–3 min**, no más — el grueso de
+    los 49 minutos lo tiene que poner el entrenamiento.
+  - **SIGUE ABIERTO: sexo biológico**, necesario para la ecuación de gasto basal.
+    Los números actuales usan la fórmula masculina sin confirmar.

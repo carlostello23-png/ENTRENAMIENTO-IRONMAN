@@ -63,7 +63,7 @@ que envolverlas.
 
 | Skill | Qué haría | Bloqueada por |
 |---|---|---|
-| `objetivo-calorico` | Objetivo del día según fase del plan, sesión prevista y peso | 🔴 **Falta la ESTATURA** (en cm) y el sexo biológico |
+| `objetivo-calorico` | Objetivo del día según fase del plan, sesión prevista y peso | **Desbloqueada** — los números por fase ya están en `deficit-responsable.md`. Falta confirmar el sexo biológico |
 | `contador-calorias` | Registro de ingesta contra el objetivo del día | Decidir de dónde salen los datos de comida |
 | `sugerencia-comidas` | Propuestas que cumplan calorías y proteína, con comida de Bogotá | Depende de las dos anteriores |
 
@@ -118,14 +118,12 @@ Se dicen desconocidos, no se rellenan con números plausibles.
 
 - 🔴 **La inscripción de Cartagena NO está hecha.** Lo más urgente del proyecto:
   entrenando para una carrera sin plaza reservada.
-- **Sede y año del 70.3 anterior.** Importa de verdad: **si fue en Cartagena,
-  ese 8:04/km ya incluye el calor y la humedad** y es una referencia directa. Si
-  fue en clima templado, en Cartagena será peor que eso.
-- 🔴 **ESTATURA en cm** *(no la talla S/M/L — la palabra "talla" ya generó una
-  confusión el 17 ago 2026)*. **Bloquea las tres skills de nutrición.** El motivo
-  real: mueve poco el gasto basal (~125 kcal en 20 cm), pero **decide cómo se
-  interpretan 87 kg** — IMC 32 a 1,65 m contra 24 a 1,90 m — y por tanto cuánto
-  es razonable bajar. También hace falta el **sexo biológico** para la ecuación.
+- **Año del 70.3 anterior** — serviría para buscar el resultado oficial y tener
+  parciales exactos en vez de aproximados.
+- 🔴 **Sexo biológico** — entrada obligatoria de la ecuación de gasto basal. Los
+  objetivos calóricos actuales usan la fórmula masculina **sin confirmar**.
+*(Nota de vocabulario: pedirle **"estatura en cm"**, nunca "talla" — se entiende
+como S/M/L y generó confusión el 17 ago 2026.)*
 - Otras condiciones crónicas, otras alergias, medicación habitual
 - **Qué tipo de reacción provocan los AINEs** *(pregunta para su médico)*
 - Año del modelo de la Émonda; tipo de rodillo
@@ -133,7 +131,9 @@ Se dicen desconocidos, no se rellenan con números plausibles.
 - Techo real de horas en fin de semana
 
 **Resueltos el 17 ago 2026:** **parciales del 70.3 anterior (49:00 / 3:30 /
-2:50 → ~7:19)**, edad (35), peso (87 kg), bici (Trek Émonda SL ·
+2:50 → ~7:19) y que fue el MISMO Cartagena** — el 8:04/km ya incluye el calor,
+así que es referencia directa y no hay que traducir climas; **estatura 1,76 m →
+IMC 28,1, basal ~1.800 kcal**, edad (35), peso (87 kg), bici (Trek Émonda SL ·
 105), rodillo (sí), **acoples (no los tiene — recomendado comprarlos antes de la
 semana 9)**, aguas abiertas (sí, varias veces), **sin historial de lesiones**,
 chequeo diario (sí), alergia a AINEs (regla de seguridad), **objetivo de bajar
@@ -153,13 +153,12 @@ que se fusione mediante un Pull Request.
 2. ✅ *Hecho — las siete skills cargan correctamente (verificado el 17 ago 2026).*
 3. Llevar el Garmin también para dormir — el reloj de los 14 días de línea base
    corre desde ya
-4. **Dar la ESTATURA en cm** (no la talla S/M/L) — desbloquea las skills de
-   nutrición y permite decidir cuánto es razonable bajar
-5. Decir en qué sede y año fue el 70.3 anterior
-6. Cerrar los huecos de salud que quedan antes de escribir reglas automáticas
+4. **Confirmar el sexo biológico** — los objetivos calóricos están calculados
+   con la fórmula masculina sin confirmar
+5. Cerrar los huecos de salud que quedan antes de escribir reglas automáticas
 7. **Comprar e instalar acoples** antes de la semana 9 (12 oct)
 8. **Automatización** (chequeo diario + revisión semanal en `cron`) — **aún no
    construida.** El atleta pidió chequeo diario, así que esto sube de prioridad.
 9. **Conexión con Garmin Connect** — **aún no construida.** Hoy los datos entran
    a mano y el dashboard se escribe a mano.
-10. **Skills de nutrición** — cuando llegue la estatura y el atleta lo pida.
+10. **Skills de nutrición** — ya desbloqueadas; cuando el atleta lo pida.
